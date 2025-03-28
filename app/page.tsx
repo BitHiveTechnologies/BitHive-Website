@@ -23,7 +23,7 @@ export default function Page() {
         {
             title: 'Website Development',
             description:
-                'Custom, responsive websites built with modern frameworks and optimized for performance.',
+                'Custom, Responsive Websites built with Modern Frameworks and Optimized for Performance.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export default function Page() {
         {
             title: 'Mobile App Development',
             description:
-                'Native and cross-platform mobile applications that deliver exceptional user experiences.',
+                'Native and Cross-Platform Mobile Applications that deliver Exceptional User Experiences.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function Page() {
         {
             title: 'UI/UX Design',
             description:
-                'Intuitive interfaces and seamless user experiences that engage and convert visitors.',
+                'Intuitive Interfaces and Seamless User Experiences that engage and convert Visitors.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ export default function Page() {
         {
             title: 'Product Design',
             description:
-                'End-to-end product design solutions tailored for startups and growing businesses.',
+                'End-to-end Product Design Solutions tailored for Startups and Growing Businesses.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ export default function Page() {
         {
             title: 'Fast Turnaround',
             description:
-                'We deliver high-quality work within tight deadlines without compromising on quality.',
+                'We Deliver High-Quality Work within Tight Deadlines without Compromising on Quality.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ export default function Page() {
         {
             title: 'Scalable Code',
             description:
-                'Our solutions are built to grow with your business, ensuring long-term sustainability.',
+                'Our Solutions are Built to Grow with Your Business, Ensuring Long-Term Sustainability.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +170,7 @@ export default function Page() {
         {
             title: 'Startup-Focused',
             description:
-                'We understand the unique challenges of startups and tailor our approach accordingly.',
+                'We Understand the Unique Challenges of Startups and Tailor Our Approach Accordingly.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -194,7 +194,7 @@ export default function Page() {
         {
             title: 'Collaborative',
             description:
-                'We work closely with your team, ensuring transparent communication throughout the process.',
+                'We Work Closely with Your Team, Ensuring Transparent Communication throughout the Process.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -273,7 +273,7 @@ export default function Page() {
         {
             title: 'Discovery',
             description:
-                'We dive deep into understanding your business, goals, and target audience.',
+                'We Dive Deep into Understanding Your Business, Goals, and Target Audience.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -297,7 +297,7 @@ export default function Page() {
         {
             title: 'Plan',
             description:
-                'We create a detailed roadmap with milestones, deliverables, and timelines.',
+                'We Create a Detailed Roadmap with Milestones, Deliverables, and Timelines.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +321,7 @@ export default function Page() {
         {
             title: 'Build',
             description:
-                'Our team develops your solution with regular updates and iterative feedback.',
+                'Our Team Develops Your Solution with Regular Updates and Iterative Feedback.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +345,7 @@ export default function Page() {
         {
             title: 'Launch',
             description:
-                'We ensure a smooth deployment and provide post-launch support and optimization.',
+                'We Ensure a Smooth Deployment and Provide Post-Launch Support and Optimization.',
             icon: (
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -370,7 +370,7 @@ export default function Page() {
 
     return (
         <div className="bg-black text-white font-sans min-h-screen relative" data-oid="_hoy0ic">
-            <InteractiveBackground /> {/* Header */}{' '}
+            <InteractiveBackground data-oid="ua.uxh5" /> {/* Header */}{' '}
             <header
                 className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800"
                 data-oid="nxqd95w"
@@ -517,9 +517,9 @@ export default function Page() {
                         </h1>{' '}
                         <p className="text-xl text-gray-300 mb-10 max-w-2xl" data-oid="bnycbta">
                             {' '}
-                            BitHive Technologies is a digital agency specializing in cutting-edge
-                            solutions for startups and fast-growing brands. We transform ideas into
-                            powerful digital products.{' '}
+                            BitHive Technologies is a Digital Agency specializing in Cutting-edge
+                            Solutions for Startups and Fast-growing Brands. We Transform ideas into
+                            powerful Digital Products.{' '}
                         </p>{' '}
                         <div className="flex flex-col sm:flex-row gap-4" data-oid="4-4w9q8">
                             {' '}
@@ -569,7 +569,7 @@ export default function Page() {
                         </h2>{' '}
                         <p className="text-gray-400 max-w-2xl mx-auto" data-oid="pxo95se">
                             {' '}
-                            We offer end-to-end digital solutions tailored to your unique business
+                            We Offer end-to-end digital solutions tailored to your unique Business
                             needs{' '}
                         </p>{' '}
                     </div>{' '}
@@ -618,12 +618,12 @@ export default function Page() {
                         {' '}
                         <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="_o90e1n">
                             {' '}
-                            Why Choose Us{' '}
+                            Why Choose Us ?{' '}
                         </h2>{' '}
                         <p className="text-gray-400 max-w-2xl mx-auto" data-oid="54tcb5z">
                             {' '}
-                            We combine technical expertise with strategic thinking to deliver
-                            exceptional results{' '}
+                            We Combine Technical Expertise with Strategic thinking to deliver
+                            Exceptional Results{' '}
                         </p>{' '}
                     </div>{' '}
                     <div
@@ -687,8 +687,8 @@ export default function Page() {
                         </h2>{' '}
                         <p className="text-gray-400 max-w-2xl mx-auto" data-oid="6xp.mqn">
                             {' '}
-                            Explore our recent projects and see how we've helped businesses achieve
-                            their goals{' '}
+                            Explore our Recent Projects and see how we've helped Businesses achieve
+                            their Goals{' '}
                         </p>{' '}
                     </div>{' '}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="igrjbif">
@@ -774,7 +774,8 @@ export default function Page() {
                         </h2>{' '}
                         <p className="text-gray-400 max-w-2xl mx-auto" data-oid="b66.y8s">
                             {' '}
-                            Don't just take our word for it—hear what our clients have to say{' '}
+                            Don't just take our Word for it — Hear What our Clients have to Say
+                            !{' '}
                         </p>{' '}
                     </div>{' '}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="o7t48.7">
@@ -847,7 +848,7 @@ export default function Page() {
                         </h2>{' '}
                         <p className="text-gray-400 max-w-2xl mx-auto" data-oid="cz0lkay">
                             {' '}
-                            A streamlined approach to delivering exceptional results{' '}
+                            A Streamlined Approach to delivering Exceptional Results{' '}
                         </p>{' '}
                     </div>{' '}
                     <div
@@ -916,19 +917,19 @@ export default function Page() {
                             </h2>{' '}
                             <p className="text-gray-300 mb-6" data-oid="wu66a6q">
                                 {' '}
-                                We're a team of passionate developers, designers, and strategists
-                                dedicated to creating exceptional digital experiences. Founded with
-                                a mission to help startups and growing businesses leverage
-                                technology to achieve their goals, BitHive Technologies combines
-                                technical expertise with creative thinking.{' '}
+                                We're a Team of Passionate Developers, Designers, and Strategists
+                                dedicated to creating Exceptional Digital Experiences. Founded with
+                                a Mission to help Startups and Growing Businesses leverage
+                                Technology to achieve their Goals, BitHive Technologies combines
+                                Technical Expertise with Creative Thinking.{' '}
                             </p>{' '}
                             <p className="text-gray-300 mb-6" data-oid="upk51-_">
                                 {' '}
-                                Our approach is collaborative and transparent, ensuring that we
-                                understand your vision and deliver solutions that exceed
-                                expectations. We stay at the forefront of technology trends to
-                                provide innovative solutions that give our clients a competitive
-                                edge.{' '}
+                                Our Approach is Collaborative and Transparent, ensuring that we
+                                understand your Vision and deliver Solutions that exceed
+                                Expectations. We Stay at the forefront of Technology trends to
+                                provide Innovative Solutions that give our Clients a Competitive
+                                Edge.{' '}
                             </p>{' '}
                             <div className="flex flex-wrap gap-4" data-oid="mx6q5d.">
                                 {' '}
@@ -942,7 +943,7 @@ export default function Page() {
                                         data-oid="um9jsm:"
                                     >
                                         {' '}
-                                        50+{' '}
+                                        20+{' '}
                                     </span>{' '}
                                     <p className="text-gray-400 text-sm" data-oid="7xhnsx2">
                                         {' '}
@@ -959,7 +960,7 @@ export default function Page() {
                                         data-oid="asrc0fw"
                                     >
                                         {' '}
-                                        30+{' '}
+                                        15+{' '}
                                     </span>{' '}
                                     <p className="text-gray-400 text-sm" data-oid="5w7c2v9">
                                         {' '}
@@ -976,7 +977,7 @@ export default function Page() {
                                         data-oid="mai7-6c"
                                     >
                                         {' '}
-                                        5+{' '}
+                                        1+{' '}
                                     </span>{' '}
                                     <p className="text-gray-400 text-sm" data-oid="jj_9_sj">
                                         {' '}
@@ -1029,7 +1030,7 @@ export default function Page() {
                                                     data-oid="4edrjls"
                                                 >
                                                     {' '}
-                                                    We deliver on our promises{' '}
+                                                    We Deliver on our Promises{' '}
                                                 </p>{' '}
                                             </div>{' '}
                                             <div
@@ -1063,7 +1064,7 @@ export default function Page() {
                                                     data-oid="wmm_25m"
                                                 >
                                                     {' '}
-                                                    Cutting-edge solutions{' '}
+                                                    Cutting-edge Solutions{' '}
                                                 </p>{' '}
                                             </div>{' '}
                                         </div>{' '}
@@ -1100,7 +1101,7 @@ export default function Page() {
                                                     data-oid=".u5:-q2"
                                                 >
                                                     {' '}
-                                                    Clear, open dialogue{' '}
+                                                    Clear, Open Dialogue{' '}
                                                 </p>{' '}
                                             </div>{' '}
                                             <div
@@ -1134,7 +1135,7 @@ export default function Page() {
                                                     data-oid="rb9w3:4"
                                                 >
                                                     {' '}
-                                                    Excellence in every detail{' '}
+                                                    Excellence in every Detail{' '}
                                                 </p>{' '}
                                             </div>{' '}
                                         </div>{' '}
@@ -1344,8 +1345,8 @@ export default function Page() {
                     </h2>{' '}
                     <p className="text-gray-300 max-w-2xl mx-auto mb-10" data-oid="ekhoo19">
                         {' '}
-                        Let's collaborate to create innovative solutions that drive your business
-                        forward. Get in touch today to discuss your project.{' '}
+                        Let's Collaborate to Create Innovative Solutions that drive your Business
+                        forward. Get in Touch today to discuss your Project.{' '}
                     </p>{' '}
                     <a
                         href="#contact"
@@ -1372,8 +1373,8 @@ export default function Page() {
                             </h2>{' '}
                             <p className="text-gray-300 mb-8" data-oid="voo7_zq">
                                 {' '}
-                                Have a project in mind or want to learn more about our services?
-                                Fill out the form and we'll get back to you as soon as
+                                Have a Project in mind or want to learn more about our Services?
+                                Fill out the Form and We'll get back to you as soon as
                                 possible.{' '}
                             </p>{' '}
                             <div className="space-y-6" data-oid="vjtrv3_">
@@ -1411,7 +1412,7 @@ export default function Page() {
                                         </h3>{' '}
                                         <p className="text-gray-400" data-oid="zo6-vjv">
                                             {' '}
-                                            contact@bithivetechnologies.com{' '}
+                                            buzz@bithive.in{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
@@ -1448,7 +1449,7 @@ export default function Page() {
                                         </h3>{' '}
                                         <p className="text-gray-400" data-oid="iamh4ml">
                                             {' '}
-                                            +1 (555) 123-4567{' '}
+                                            +91 7070030645 , +91 9369450531{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
@@ -1488,102 +1489,56 @@ export default function Page() {
                                         {' '}
                                         <h3 className="font-medium mb-1" data-oid="78scr1w">
                                             {' '}
-                                            Location{' '}
+                                            Head Office{' '}
                                         </h3>{' '}
                                         <p className="text-gray-400" data-oid="b1xqtm8">
                                             {' '}
-                                            San Francisco, CA{' '}
+                                            Gurugram, Haryana, India{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="pt-6" data-oid="su9ar.b">
+                                <div className="flex items-start" data-oid="0bfdxi.">
                                     {' '}
-                                    <h3 className="font-medium mb-3" data-oid="b9kacmy">
+                                    <div
+                                        className="bg-gray-900 p-3 rounded-lg mr-4"
+                                        data-oid="l.7ob4t"
+                                    >
                                         {' '}
-                                        Connect With Us{' '}
-                                    </h3>{' '}
-                                    <div className="flex space-x-4" data-oid="0h0l.w1">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-6 w-6 text-blue-400"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            data-oid="k2k5968"
+                                        >
+                                            {' '}
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={1.5}
+                                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                                                data-oid="tn:q9d9"
+                                            />{' '}
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={1.5}
+                                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                                                data-oid="po85-hq"
+                                            />{' '}
+                                        </svg>{' '}
+                                    </div>{' '}
+                                    <div data-oid="djw:qoj">
                                         {' '}
-                                        <a
-                                            href="#"
-                                            className="bg-gray-900 p-3 rounded-lg text-gray-400 hover:text-blue-400 transition-colors"
-                                            data-oid="6cubw5p"
-                                        >
+                                        <h3 className="font-medium mb-1" data-oid="njhglrt">
                                             {' '}
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="h-5 w-5"
-                                                fill="currentColor"
-                                                viewBox="0 0 24 24"
-                                                data-oid="asg6ikt"
-                                            >
-                                                {' '}
-                                                <path
-                                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                                    data-oid="lwwk2hu"
-                                                />{' '}
-                                            </svg>{' '}
-                                        </a>{' '}
-                                        <a
-                                            href="#"
-                                            className="bg-gray-900 p-3 rounded-lg text-gray-400 hover:text-blue-400 transition-colors"
-                                            data-oid="bqw.4-f"
-                                        >
+                                            Sub Office{' '}
+                                        </h3>{' '}
+                                        <p className="text-gray-400" data-oid="p95le0d">
                                             {' '}
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="h-5 w-5"
-                                                fill="currentColor"
-                                                viewBox="0 0 24 24"
-                                                data-oid="360j.ud"
-                                            >
-                                                {' '}
-                                                <path
-                                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                                    data-oid="6m78p2y"
-                                                />{' '}
-                                            </svg>{' '}
-                                        </a>{' '}
-                                        <a
-                                            href="#"
-                                            className="bg-gray-900 p-3 rounded-lg text-gray-400 hover:text-blue-400 transition-colors"
-                                            data-oid="t:pa9xu"
-                                        >
-                                            {' '}
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="h-5 w-5"
-                                                fill="currentColor"
-                                                viewBox="0 0 24 24"
-                                                data-oid="2bo1_rt"
-                                            >
-                                                {' '}
-                                                <path
-                                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                                                    data-oid="63i1g9-"
-                                                />{' '}
-                                            </svg>{' '}
-                                        </a>{' '}
-                                        <a
-                                            href="#"
-                                            className="bg-gray-900 p-3 rounded-lg text-gray-400 hover:text-blue-400 transition-colors"
-                                            data-oid="reys90b"
-                                        >
-                                            {' '}
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                className="h-5 w-5"
-                                                fill="currentColor"
-                                                viewBox="0 0 24 24"
-                                                data-oid="-:7gyu9"
-                                            >
-                                                {' '}
-                                                <path
-                                                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
-                                                    data-oid="..37ekr"
-                                                />{' '}
-                                            </svg>{' '}
-                                        </a>{' '}
+                                            Dehradun, Uttarakhand, India{' '}
+                                        </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
                             </div>{' '}
@@ -1709,8 +1664,7 @@ export default function Page() {
                             </div>{' '}
                             <p className="text-gray-400 mb-6" data-oid="ofa:uh9">
                                 {' '}
-                                Creating exceptional digital experiences for forward-thinking
-                                businesses.{' '}
+                                Creating Buzz in Digital Experiences !{' '}
                             </p>{' '}
                             <div className="flex space-x-4" data-oid="oq.y_3y">
                                 {' '}
@@ -1735,7 +1689,7 @@ export default function Page() {
                                     </svg>{' '}
                                 </a>{' '}
                                 <a
-                                    href="#"
+                                    href="linkedin.com/company/bithive-technology "
                                     className="text-gray-400 hover:text-blue-400 transition-colors"
                                     data-oid="-d49dbp"
                                 >
@@ -1784,60 +1738,25 @@ export default function Page() {
                             </h3>{' '}
                             <ul className="space-y-2" data-oid="zmms1w9">
                                 {' '}
-                                <li data-oid="vuwm5ce">
+                                <li data-oid="vuwm5ce" className="text-gray-400">
                                     {' '}
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="rq9fae7"
-                                    >
-                                        {' '}
-                                        Website Development{' '}
-                                    </a>{' '}
+                                    Website Development{' '}
                                 </li>{' '}
-                                <li data-oid="lxxeiis">
+                                <li data-oid="lxxeiis" className="text-gray-400">
                                     {' '}
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="i4c4vsx"
-                                    >
-                                        {' '}
-                                        Mobile App Development{' '}
-                                    </a>{' '}
+                                    Mobile App Development{' '}
                                 </li>{' '}
-                                <li data-oid="ztkpwt6">
+                                <li data-oid="ztkpwt6" className="text-gray-400">
                                     {' '}
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="x7umyo5"
-                                    >
-                                        {' '}
-                                        UI/UX Design{' '}
-                                    </a>{' '}
+                                    UI/UX Design{' '}
                                 </li>{' '}
-                                <li data-oid="5d.r-in">
+                                <li data-oid="5d.r-in" className="text-gray-400">
                                     {' '}
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="xbt1yyu"
-                                    >
-                                        {' '}
-                                        Product Design{' '}
-                                    </a>{' '}
+                                    Product Design{' '}
                                 </li>{' '}
-                                <li data-oid="pk85kbi">
+                                <li data-oid="pk85kbi" className="text-gray-400">
                                     {' '}
-                                    <a
-                                        href="#"
-                                        className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="4vcu62:"
-                                    >
-                                        {' '}
-                                        Digital Strategy{' '}
-                                    </a>{' '}
+                                    Digital Strategy{' '}
                                 </li>{' '}
                             </ul>{' '}
                         </div>{' '}
@@ -1958,11 +1877,11 @@ export default function Page() {
                         <p className="text-gray-500 text-sm" data-oid="l7v2--.">
                             {' '}
                             &copy; {new Date().getFullYear()} BitHive Technologies. All rights
-                            reserved.{' '}
+                            Reserved.{' '}
                         </p>{' '}
                         <p className="text-gray-500 text-sm mt-4 md:mt-0" data-oid="74l95gh">
                             {' '}
-                            Built by BitHive Technologies{' '}
+                            Built from ❤️ by BitHive Technologies{' '}
                         </p>{' '}
                     </div>{' '}
                 </div>{' '}
