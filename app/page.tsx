@@ -513,7 +513,15 @@ export default function Page() {
                                 {' '}
                                 Digital Experiences{' '}
                             </span>{' '}
-                            That Drive Growth{' '}
+                            That
+                            <span
+                                className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
+                                data-oid="hwe8v6j"
+                            >
+                                {' '}
+                                Buzzes{' '}
+                            </span>{' '}
+                            and Drives Growth{' '}
                         </h1>{' '}
                         <p className="text-xl text-gray-300 mb-10 max-w-2xl" data-oid="bnycbta">
                             {' '}
@@ -529,7 +537,7 @@ export default function Page() {
                                 data-oid="nt.99zy"
                             >
                                 {' '}
-                                Let's Talk{' '}
+                                Let's Buzz{' '}
                             </a>{' '}
                             <a
                                 href="#services"
@@ -1354,30 +1362,33 @@ export default function Page() {
                         data-oid="g9d45:a"
                     >
                         {' '}
-                        Let's Talk{' '}
+                        Let's Buzz{' '}
                     </a>{' '}
                 </div>{' '}
             </section>{' '}
             {/* Contact Section */}{' '}
-            <section id="contact" className="py-20 bg-black relative z-10" data-oid="_wp0oxa">
+            <section id="contact" className="py-16 pb-12 bg-black relative z-10" data-oid="_wp0oxa">
                 {' '}
-                <div className="container mx-auto px-6" data-oid="_h5-5zg">
+                <div className="container mx-auto px-6 max-w-6xl" data-oid="_h5-5zg">
                     {' '}
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12" data-oid=":yy2s74">
+                    <div
+                        className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
+                        data-oid=":yy2s74"
+                    >
                         {' '}
-                        <div data-oid="9wysnke">
+                        <div className="mx-auto w-full" data-oid="9wysnke">
                             {' '}
-                            <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid="d5cb-yu">
+                            <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="d5cb-yu">
                                 {' '}
                                 Get In Touch{' '}
                             </h2>{' '}
-                            <p className="text-gray-300 mb-8" data-oid="voo7_zq">
+                            <p className="text-gray-300 mb-6" data-oid="voo7_zq">
                                 {' '}
                                 Have a Project in mind or want to learn more about our Services?
                                 Fill out the Form and We'll get back to you as soon as
                                 possible.{' '}
                             </p>{' '}
-                            <div className="space-y-6" data-oid="vjtrv3_">
+                            <div className="space-y-4" data-oid="vjtrv3_">
                                 {' '}
                                 <div className="flex items-start" data-oid="4.70r1l">
                                     {' '}
@@ -1544,14 +1555,14 @@ export default function Page() {
                             </div>{' '}
                         </div>{' '}
                         <div
-                            className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg"
+                            className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg mx-auto w-full"
                             data-oid="xua9g2l"
                         >
                             {' '}
                             <form data-oid="8jafwx7">
                                 {' '}
                                 <div
-                                    className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6"
+                                    className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4"
                                     data-oid="93vcfn6"
                                 >
                                     {' '}
@@ -1592,7 +1603,7 @@ export default function Page() {
                                         />{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="mb-6" data-oid="y88it2k">
+                                <div className="mb-4" data-oid="y88it2k">
                                     {' '}
                                     <label
                                         htmlFor="subject"
@@ -1610,7 +1621,7 @@ export default function Page() {
                                         data-oid="yeajkjj"
                                     />{' '}
                                 </div>{' '}
-                                <div className="mb-6" data-oid="psn6dxj">
+                                <div className="mb-4" data-oid="psn6dxj">
                                     {' '}
                                     <label
                                         htmlFor="message"
