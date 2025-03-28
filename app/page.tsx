@@ -1881,7 +1881,7 @@ export default function Page() {
                         </p>{' '}
                         <p className="text-gray-500 text-sm mt-4 md:mt-0" data-oid="74l95gh">
                             {' '}
-                            Built from ❤️ by BitHive Technologies{' '}
+                            Built with ❤️ by BitHive Technologies{' '}
                         </p>{' '}
                     </div>{' '}
                 </div>{' '}
