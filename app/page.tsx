@@ -248,7 +248,7 @@ export default function Page() {
         {
             title: 'Crime Alert',
             description:
-                'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google's Gemini AI for Structured Reports !',
+                'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google’s Gemini AI for Structured Reports !',
             image: 'https://s5.cdn.memeburn.com/wp-content/uploads/2020/09/crimespotter-crime-reporting-app.jpg',
             tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind CSS', 'NextAuth'],
         },
@@ -398,7 +398,13 @@ export default function Page() {
     return (
         <div className="bg-black text-white font-sans min-h-screen relative" data-oid="_hoy0ic">
             <Suspense
-                fallback={<div className="fixed top-0 left-0 w-full h-full bg-black z-0"></div>}
+                fallback={
+                    <div
+                        className="fixed top-0 left-0 w-full h-full bg-black z-0"
+                        data-oid="wjzqp.5"
+                    ></div>
+                }
+                data-oid="whrgl0g"
             >
                 <InteractiveBackground data-oid="ua.uxh5" />
             </Suspense>
@@ -1936,11 +1942,5 @@ export default function Page() {
                 </div>{' '}
             </footer>{' '}
         </div>
-    );
-}
-
-                </div > { ' '}
-            </footer > { ' '}
-        </div >
     );
 }
