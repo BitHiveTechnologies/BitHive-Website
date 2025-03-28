@@ -384,14 +384,12 @@ export default function Page() {
                             {' '}
                             <div className="h-14" data-oid="4dbu5qx">
                                 {' '}
-                                <a href="/" data-oid="jnfi61r">
-                                    <img
-                                        src="/images/PHOTO-2025-03-28-20-01-27.jpg"
-                                        alt="BitHive Technologies Logo"
-                                        className="h-full w-auto rounded-md object-contain"
-                                        data-oid="bc3_k:6"
-                                    />{' '}
-                                </a>
+                                <img
+                                    src="/images/PHOTO-2025-03-28-20-01-27.jpg"
+                                    alt="BitHive Technologies Logo"
+                                    className="h-full w-auto rounded-md object-contain"
+                                    data-oid="bc3_k:6"
+                                />{' '}
                             </div>{' '}
                         </div>{' '}
                         {/* Desktop Navigation */}{' '}
@@ -515,15 +513,7 @@ export default function Page() {
                                 {' '}
                                 Digital Experiences{' '}
                             </span>{' '}
-                            That
-                            <span
-                                className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
-                                data-oid="0vrfump"
-                            >
-                                {' '}
-                                Buzzes{' '}
-                            </span>{' '}
-                            and Drives Growth{' '}
+                            That Drive Growth{' '}
                         </h1>{' '}
                         <p className="text-xl text-gray-300 mb-10 max-w-2xl" data-oid="bnycbta">
                             {' '}
@@ -539,7 +529,7 @@ export default function Page() {
                                 data-oid="nt.99zy"
                             >
                                 {' '}
-                                Let's Buzz{' '}
+                                Let's Talk{' '}
                             </a>{' '}
                             <a
                                 href="#services"
@@ -1364,7 +1354,7 @@ export default function Page() {
                         data-oid="g9d45:a"
                     >
                         {' '}
-                        Let's Buzz{' '}
+                        Let's Talk{' '}
                     </a>{' '}
                 </div>{' '}
             </section>{' '}
