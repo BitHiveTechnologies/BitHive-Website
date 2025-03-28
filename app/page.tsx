@@ -228,23 +228,23 @@ export default function Page() {
         {
             title: 'WealthX',
             description:
-                'Wealth is an AI-powered Financial Management solution designed to simplify income and expense tracking across multiple accounts. With smart categorization, receipt scanning, recurring transaction management, email alerts, and in-depth financial analysis, Wealth provides personalized monthly reports to help users gain control over their finances and make informed decisions.',
+                'Wealth is an AI-powered Financial Management Solution designed to simplify Income and Expense Tracking across Multiple Accounts.',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=E-commerce+App',
-            tags: ['Mobile', 'React Native', 'UI/UX'],
+            tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         },
         {
-            title: 'SaaS Platform Redesign',
+            title: 'Yoom',
             description:
-                'Complete UI/UX overhaul resulting in 40% improved user engagement and retention.',
+                'Yoom is a Modern Zoom alternative , offering a High-Quality Video Conferencing experience with Real-time Chat, Responsive Design, and Extensive Meeting Controls',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=SaaS+Redesign',
-            tags: ['Web App', 'UI/UX', 'Product Design'],
+            tags: ['Next.js', 'Typescript', 'Clerk', 'ShadCN'],
         },
         {
-            title: 'Health & Fitness Tracker',
+            title: 'DashAdmin',
             description:
-                'Cross-platform application for tracking fitness goals with social features.',
+                ' DashboardX is an Industry-level Management Solution designed to Simplify Administrative Tasks and Data Oversight ',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=Fitness+Tracker',
-            tags: ['Mobile', 'Web App', 'Full Stack'],
+            tags: ['MERN Stack', 'PostgreSQL', 'Sequilizer'],
         },
     ];
 
