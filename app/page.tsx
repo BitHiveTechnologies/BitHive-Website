@@ -1,24 +1,50 @@
 'use client';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import InteractiveBackground from '../components/InteractiveBackground';
+import { useEffect, useState, lazy, Suspense } from 'react';
+
+// Lazy load the InteractiveBackground component
+const InteractiveBackground = lazy(() => import('../components/InteractiveBackground'));
 export default function Page() {
     const [activeSection, setActiveSection] = useState('home');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     useEffect(() => {
+        // Throttle scroll event for better performance
+        let scrollTimeout: NodeJS.Timeout | null;
+        let lastScrollY = window.scrollY;
+
         const handleScroll = () => {
-            const sections = document.querySelectorAll('section');
-            const scrollPosition = window.scrollY + 100;
-            sections.forEach((section) => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.offsetHeight;
-                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                    setActiveSection(section.id);
+            if (scrollTimeout) {
+                return;
+            }
+
+            scrollTimeout = setTimeout(() => {
+                // Only process if we've scrolled significantly
+                if (Math.abs(window.scrollY - lastScrollY) > 50 || scrollTimeout === null) {
+                    lastScrollY = window.scrollY;
+
+                    const sections = document.querySelectorAll('section');
+                    const scrollPosition = window.scrollY + 100;
+
+                    sections.forEach((section) => {
+                        const sectionTop = section.offsetTop;
+                        const sectionHeight = section.offsetHeight;
+                        if (
+                            scrollPosition >= sectionTop &&
+                            scrollPosition < sectionTop + sectionHeight
+                        ) {
+                            setActiveSection(section.id);
+                        }
+                    });
                 }
-            });
+                scrollTimeout = null;
+            }, 100); // 100ms throttle
         };
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            if (scrollTimeout) clearTimeout(scrollTimeout);
+        };
     }, []);
     const services = [
         {
@@ -222,7 +248,7 @@ export default function Page() {
         {
             title: 'Crime Alert',
             description:
-                'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google’s Gemini AI for Structured Reports !',
+                'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google's Gemini AI for Structured Reports !',
             image: 'https://s5.cdn.memeburn.com/wp-content/uploads/2020/09/crimespotter-crime-reporting-app.jpg',
             tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind CSS', 'NextAuth'],
         },
@@ -371,7 +397,12 @@ export default function Page() {
 
     return (
         <div className="bg-black text-white font-sans min-h-screen relative" data-oid="_hoy0ic">
-            <InteractiveBackground data-oid="ua.uxh5" /> {/* Header */}{' '}
+            <Suspense
+                fallback={<div className="fixed top-0 left-0 w-full h-full bg-black z-0"></div>}
+            >
+                <InteractiveBackground data-oid="ua.uxh5" />
+            </Suspense>
+            {/* Header */}{' '}
             <header
                 className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800"
                 data-oid="nxqd95w"
@@ -390,6 +421,7 @@ export default function Page() {
                                         src="/images/PHOTO-2025-03-28-20-01-27.jpg"
                                         alt="BitHive Technologies Logo"
                                         className="h-full w-auto rounded-md object-contain"
+                                        loading="eager"
                                         data-oid="bc3_k:6"
                                     />{' '}
                                 </Link>
@@ -422,6 +454,7 @@ export default function Page() {
                         <button
                             className="md:hidden text-gray-300 focus:outline-none"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
+                            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
                             data-oid="i-7sb0:"
                         >
                             {' '}
@@ -717,6 +750,7 @@ export default function Page() {
                                         src={project.image}
                                         alt={project.title}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                        loading="lazy"
                                         data-oid="9w_bu9j"
                                     />{' '}
                                     <div
@@ -1203,6 +1237,7 @@ export default function Page() {
                                         src="/images/AyushSrivastav.png"
                                         alt="Ayush Srivastava"
                                         className="h-full w-full rounded-lg object-cover"
+                                        loading="lazy"
                                         data-oid="9u231oc"
                                     />
                                 </div>{' '}
@@ -1901,5 +1936,11 @@ export default function Page() {
                 </div>{' '}
             </footer>{' '}
         </div>
+    );
+}
+
+                </div > { ' '}
+            </footer > { ' '}
+        </div >
     );
 }
