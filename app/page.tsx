@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Page() {
     const [activeSection, setActiveSection] = useState('home');
@@ -373,66 +373,11 @@ export default function Page() {
                     <div className="flex justify-between items-center" data-oid="tzzznub">
                         <div className="flex items-center space-x-2" data-oid="9-4zc_e">
                             <div className="w-10 h-10" data-oid="4dbu5qx">
-                                <svg
-                                    viewBox="0 0 100 100"
-                                    className="w-full h-full"
-                                    data-oid="ueb.evf"
-                                >
-                                    <g
-                                        fill="none"
-                                        stroke="url(#gradient)"
-                                        strokeWidth="2"
-                                        data-oid="7wc-ucg"
-                                    >
-                                        <polygon
-                                            points="50,20 80,40 80,70 50,90 20,70 20,40"
-                                            data-oid="a.qvvk_"
-                                        />
-
-                                        <polygon
-                                            points="50,30 70,45 70,65 50,80 30,65 30,45"
-                                            data-oid="z53j:lj"
-                                        />
-
-                                        <polygon
-                                            points="50,40 60,50 60,60 50,70 40,60 40,50"
-                                            data-oid="29gel1."
-                                        />
-                                    </g>
-                                    <defs data-oid="-mtzaae">
-                                        <linearGradient
-                                            id="gradient"
-                                            x1="0%"
-                                            y1="0%"
-                                            x2="100%"
-                                            y2="100%"
-                                            data-oid="sw93cz1"
-                                        >
-                                            <stop
-                                                offset="0%"
-                                                stopColor="#00ffcc"
-                                                data-oid="hzar9dv"
-                                            />
-
-                                            <stop
-                                                offset="100%"
-                                                stopColor="#4d4dff"
-                                                data-oid="gblnr-3"
-                                            />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <div className="text-xl font-bold tracking-tight" data-oid="iac_ltq">
-                                <span
-                                    className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
-                                    data-oid="2owhhx4"
-                                >
-                                    BITHIVE
-                                </span>
-                                <span className="text-gray-400 text-sm ml-1" data-oid="auvn54_">
-                                    TECHNOLOGIES
-                                </span>
+                                <img
+                                    src="./public/images/PHOTO-2025-03-28-20-01-27.jpg"
+                                    className="ml-2 rounded-md object-cover"
+                                    data-oid="bc3_k:6"
+                                />
                             </div>
                         </div>
 
