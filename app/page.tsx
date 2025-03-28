@@ -1171,25 +1171,12 @@ export default function Page() {
                                     className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
                                     data-oid="em-emoy"
                                 >
-                                    {' '}
-                                    {/* Replace with actual image */}{' '}
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-20 w-20 text-gray-600"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="sg4yvt-"
-                                    >
-                                        {' '}
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={1.5}
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                                            data-oid="01.81c4"
-                                        />{' '}
-                                    </svg>{' '}
+                                    <img
+                                        src="/images/AyushSrivastav.png"
+                                        alt="Ayush Srivastava"
+                                        className="h-full w-full rounded-lg object-cover"
+                                        data-oid="9u231oc"
+                                    />
                                 </div>{' '}
                             </div>{' '}
                             <h3 className="text-xl font-semibold mb-1" data-oid="bz-xb2q">
@@ -1222,25 +1209,12 @@ export default function Page() {
                                     className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
                                     data-oid="csk-qe6"
                                 >
-                                    {' '}
-                                    {/* Replace with actual image */}{' '}
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-20 w-20 text-gray-600"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="f_1rhzn"
-                                    >
-                                        {' '}
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={1.5}
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                                            data-oid="a5d804e"
-                                        />{' '}
-                                    </svg>{' '}
+                                    <img
+                                        src="/images/Saurabh.jpeg"
+                                        alt="Saurabh Singh"
+                                        className="h-full w-full rounded-lg object-cover"
+                                        data-oid="qpw3134"
+                                    />
                                 </div>{' '}
                             </div>{' '}
                             <h3 className="text-xl font-semibold mb-1" data-oid="ktzdg11">
@@ -1273,25 +1247,12 @@ export default function Page() {
                                     className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
                                     data-oid="2cqr2cp"
                                 >
-                                    {' '}
-                                    {/* Replace with actual image */}{' '}
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-20 w-20 text-gray-600"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid="6jy7.je"
-                                    >
-                                        {' '}
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={1.5}
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                                            data-oid="y0dvj50"
-                                        />{' '}
-                                    </svg>{' '}
+                                    <img
+                                        src="/images/AyushKumar.jpeg"
+                                        alt="Ayush Srivastava"
+                                        className="h-full w-full rounded-lg object-cover"
+                                        data-oid="j9uitfd"
+                                    />
                                 </div>{' '}
                             </div>{' '}
                             <h3 className="text-xl font-semibold mb-1" data-oid="9-fcf7v">
@@ -1324,25 +1285,12 @@ export default function Page() {
                                     className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
                                     data-oid="qzj-4vn"
                                 >
-                                    {' '}
-                                    {/* Replace with actual image */}{' '}
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-20 w-20 text-gray-600"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        data-oid=".:jvpab"
-                                    >
-                                        {' '}
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={1.5}
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                                            data-oid="x0yrr10"
-                                        />{' '}
-                                    </svg>{' '}
+                                    <img
+                                        src="/images/Priyansh.jpeg"
+                                        alt="Priyansh Kandwal"
+                                        className="h-full w-full rounded-lg object-cover"
+                                        data-oid="sb0azj3"
+                                    />
                                 </div>{' '}
                             </div>{' '}
                             <h3 className="text-xl font-semibold mb-1" data-oid="0:wecul">
