@@ -374,8 +374,9 @@ export default function Page() {
                         <div className="flex items-center space-x-2" data-oid="9-4zc_e">
                             <div className="w-10 h-10" data-oid="4dbu5qx">
                                 <img
-                                    src="./public/images/PHOTO-2025-03-28-20-01-27.jpg"
-                                    className="ml-2 rounded-md object-cover"
+                                    src="/images/PHOTO-2025-03-28-20-01-27.jpg"
+                                    alt="BitHive Technologies Logo"
+                                    className="w-full h-full rounded-md object-cover"
                                     data-oid="bc3_k:6"
                                 />
                             </div>
@@ -1342,69 +1343,13 @@ export default function Page() {
                 <div className="container mx-auto px-6 py-12" data-oid="8mnte.i">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="2ywa987">
                         <div className="md:col-span-1" data-oid="tkv59e6">
-                            <div className="flex items-center space-x-2 mb-6" data-oid="e9jn7dx">
-                                <div className="w-8 h-8" data-oid="ea041fw">
-                                    <svg
-                                        viewBox="0 0 100 100"
-                                        className="w-full h-full"
-                                        data-oid="lz9w3pw"
-                                    >
-                                        <g
-                                            fill="none"
-                                            stroke="url(#footerGradient)"
-                                            strokeWidth="2"
-                                            data-oid=".dvyw08"
-                                        >
-                                            <polygon
-                                                points="50,20 80,40 80,70 50,90 20,70 20,40"
-                                                data-oid=".3-aj.v"
-                                            />
-
-                                            <polygon
-                                                points="50,30 70,45 70,65 50,80 30,65 30,45"
-                                                data-oid="3_1mg80"
-                                            />
-
-                                            <polygon
-                                                points="50,40 60,50 60,60 50,70 40,60 40,50"
-                                                data-oid="huhnwo_"
-                                            />
-                                        </g>
-                                        <defs data-oid="7vlkuyi">
-                                            <linearGradient
-                                                id="footerGradient"
-                                                x1="0%"
-                                                y1="0%"
-                                                x2="100%"
-                                                y2="100%"
-                                                data-oid="9o8vpvl"
-                                            >
-                                                <stop
-                                                    offset="0%"
-                                                    stopColor="#00ffcc"
-                                                    data-oid="gf:9r:k"
-                                                />
-
-                                                <stop
-                                                    offset="100%"
-                                                    stopColor="#4d4dff"
-                                                    data-oid="3r:ducv"
-                                                />
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                </div>
-                                <div
-                                    className="text-lg font-bold tracking-tight"
-                                    data-oid="3na0uhb"
-                                >
-                                    <span
-                                        className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
-                                        data-oid="f_wg4yb"
-                                    >
-                                        BITHIVE
-                                    </span>
-                                </div>
+                            <div className="mb-6" data-oid="e9jn7dx">
+                                <img
+                                    src="/images/PHOTO-2025-03-28-20-01-27.jpg"
+                                    alt="BitHive Technologies Logo"
+                                    className="h-10 rounded-md object-cover"
+                                    data-oid="q4ndbf:"
+                                />
                             </div>
                             <p className="text-gray-400 mb-6" data-oid="ofa:uh9">
                                 Creating exceptional digital experiences for forward-thinking
