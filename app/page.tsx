@@ -219,14 +219,14 @@ export default function Page() {
 
     const portfolio = [
         {
-            title: 'Fintech Dashboard',
+            title: 'Crime Alert',
             description:
-                'A comprehensive financial analytics platform with real-time data visualization.',
+                'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google’s Gemini AI for Structured Reports !',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=Fintech+Dashboard',
-            tags: ['Web App', 'Dashboard', 'React'],
+            tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind CSS', 'NextAuth'],
         },
         {
-            title: 'E-commerce Mobile App',
+            title: 'WealthX',
             description:
                 'A seamless shopping experience with personalized recommendations and secure checkout.',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=E-commerce+App',
