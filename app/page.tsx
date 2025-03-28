@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import InteractiveBackground from '../components/InteractiveBackground';
 export default function Page() {
@@ -384,14 +385,14 @@ export default function Page() {
                             {' '}
                             <div className="h-14" data-oid="4dbu5qx">
                                 {' '}
-                                <a href="/" data-oid="87ji5z6">
+                                <Link href="/" data-oid="xq_p1by">
                                     <img
                                         src="/images/PHOTO-2025-03-28-20-01-27.jpg"
                                         alt="BitHive Technologies Logo"
                                         className="h-full w-auto rounded-md object-contain"
                                         data-oid="bc3_k:6"
                                     />{' '}
-                                </a>
+                                </Link>
                             </div>{' '}
                         </div>{' '}
                         {/* Desktop Navigation */}{' '}
