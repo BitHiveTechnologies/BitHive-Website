@@ -553,7 +553,11 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Services Section */}{' '}
-            <section id="services" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10" data-oid=":4e.0i9">
+            <section
+                id="services"
+                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
+                data-oid=":4e.0i9"
+            >
                 {' '}
                 <div className="container mx-auto px-6" data-oid="8zbng-o">
                     {' '}
@@ -667,7 +671,11 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Portfolio Section */}{' '}
-            <section id="portfolio" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10" data-oid="851_l2p">
+            <section
+                id="portfolio"
+                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
+                data-oid="851_l2p"
+            >
                 {' '}
                 <div className="container mx-auto px-6" data-oid="hluqq_3">
                     {' '}
@@ -823,7 +831,11 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Process Section */}{' '}
-            <section id="process" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10" data-oid="pg2bejx">
+            <section
+                id="process"
+                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
+                data-oid="pg2bejx"
+            >
                 {' '}
                 <div className="container mx-auto px-6" data-oid="6pyswck">
                     {' '}
@@ -1139,7 +1151,11 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Our Team Section */}{' '}
-            <section id="team" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10" data-oid="m1scfd:">
+            <section
+                id="team"
+                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
+                data-oid="m1scfd:"
+            >
                 {' '}
                 <div className="container mx-auto px-6" data-oid="v.ejbip">
                     {' '}
@@ -1951,7 +1967,6 @@ export default function Page() {
                     </div>{' '}
                 </div>{' '}
             </footer>{' '}
-            </div>
         </div>
     );
 }
