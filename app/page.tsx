@@ -372,11 +372,11 @@ export default function Page() {
                 <div className="container mx-auto px-6 py-4" data-oid="0s_2wb3">
                     <div className="flex justify-between items-center" data-oid="tzzznub">
                         <div className="flex items-center space-x-2" data-oid="9-4zc_e">
-                            <div className="w-10 h-10" data-oid="4dbu5qx">
+                            <div className="h-10" data-oid="4dbu5qx">
                                 <img
                                     src="/images/PHOTO-2025-03-28-20-01-27.jpg"
                                     alt="BitHive Technologies Logo"
-                                    className="w-full h-full rounded-md object-cover"
+                                    className="h-full w-auto rounded-md object-contain"
                                     data-oid="bc3_k:6"
                                 />
                             </div>
