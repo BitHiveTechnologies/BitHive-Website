@@ -384,12 +384,14 @@ export default function Page() {
                             {' '}
                             <div className="h-14" data-oid="4dbu5qx">
                                 {' '}
-                                <img
-                                    src="/images/PHOTO-2025-03-28-20-01-27.jpg"
-                                    alt="BitHive Technologies Logo"
-                                    className="h-full w-auto rounded-md object-contain"
-                                    data-oid="bc3_k:6"
-                                />{' '}
+                                <a href="/" data-oid="87ji5z6">
+                                    <img
+                                        src="/images/PHOTO-2025-03-28-20-01-27.jpg"
+                                        alt="BitHive Technologies Logo"
+                                        className="h-full w-auto rounded-md object-contain"
+                                        data-oid="bc3_k:6"
+                                    />{' '}
+                                </a>
                             </div>{' '}
                         </div>{' '}
                         {/* Desktop Navigation */}{' '}
