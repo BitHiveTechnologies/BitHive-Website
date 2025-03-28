@@ -228,7 +228,7 @@ export default function Page() {
         {
             title: 'WealthX',
             description:
-                'A seamless shopping experience with personalized recommendations and secure checkout.',
+                'Wealth is an AI-powered Financial Management solution designed to simplify income and expense tracking across multiple accounts. With smart categorization, receipt scanning, recurring transaction management, email alerts, and in-depth financial analysis, Wealth provides personalized monthly reports to help users gain control over their finances and make informed decisions.',
             image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=E-commerce+App',
             tags: ['Mobile', 'React Native', 'UI/UX'],
         },
