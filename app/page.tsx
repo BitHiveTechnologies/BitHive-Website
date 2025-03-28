@@ -222,28 +222,28 @@ export default function Page() {
             title: 'Crime Alert',
             description:
                 'Crime Alert is a Full-Stack Application focused on Secure, Anonymous Incident Reporting. It Integrates Google’s Gemini AI for Structured Reports !',
-            image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=Fintech+Dashboard',
+            image: 'https://s5.cdn.memeburn.com/wp-content/uploads/2020/09/crimespotter-crime-reporting-app.jpg',
             tags: ['Next.js', 'Typescript', 'Prisma', 'Tailwind CSS', 'NextAuth'],
         },
         {
             title: 'WealthX',
             description:
                 'Wealth is an AI-powered Financial Management Solution designed to simplify Income and Expense Tracking across Multiple Accounts.',
-            image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=E-commerce+App',
+            image: 'https://www.etmoney.com/learn/wp-content/uploads/2022/09/wealth-building.jpg',
             tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         },
         {
             title: 'Yoom',
             description:
                 'Yoom is a Modern Zoom alternative , offering a High-Quality Video Conferencing experience with Real-time Chat, Responsive Design, and Extensive Meeting Controls',
-            image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=SaaS+Redesign',
+            image: 'https://blog.techsoup.org/hs-fs/hubfs/Blog%20Images/202001/blg-20.01.30-videoconferencing-comparison.png?width=720&name=blg-20.01.30-videoconferencing-comparison.png',
             tags: ['Next.js', 'Typescript', 'Clerk', 'ShadCN'],
         },
         {
             title: 'DashAdmin',
             description:
                 ' DashboardX is an Industry-level Management Solution designed to Simplify Administrative Tasks and Data Oversight ',
-            image: 'https://via.placeholder.com/600x400/0a0a0a/4a4a4a?text=Fitness+Tracker',
+            image: 'https://s3.envato.com/files/503370354/03_preview.png',
             tags: ['MERN Stack', 'PostgreSQL', 'Sequilizer'],
         },
     ];
