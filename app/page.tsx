@@ -488,7 +488,7 @@ export default function Page() {
             {/* Hero Section */}{' '}
             <section
                 id="home"
-                className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden z-10"
+                className="pt-40 pb-20 md:pt-48 md:pb-32 relative overflow-hidden z-10"
                 data-oid="ilwcva2"
             >
                 {' '}
