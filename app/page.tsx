@@ -384,18 +384,24 @@ export default function Page() {
 
                         {/* Desktop Navigation */}
                         <nav className="hidden md:flex space-x-8" data-oid="_iwd0ne">
-                            {['home', 'services', 'portfolio', 'process', 'about', 'contact'].map(
-                                (item) => (
-                                    <a
-                                        key={item}
-                                        href={`#${item}`}
-                                        className={`text-sm uppercase tracking-wider hover:text-blue-400 transition-colors ${activeSection === item ? 'text-blue-400' : 'text-gray-300'}`}
-                                        data-oid="u02s1w1"
-                                    >
-                                        {item}
-                                    </a>
-                                ),
-                            )}
+                            {[
+                                'home',
+                                'services',
+                                'portfolio',
+                                'process',
+                                'about',
+                                'team',
+                                'contact',
+                            ].map((item) => (
+                                <a
+                                    key={item}
+                                    href={`#${item}`}
+                                    className={`text-sm uppercase tracking-wider hover:text-blue-400 transition-colors ${activeSection === item ? 'text-blue-400' : 'text-gray-300'}`}
+                                    data-oid="u02s1w1"
+                                >
+                                    {item}
+                                </a>
+                            ))}
                         </nav>
 
                         {/* Mobile Menu Button */}
@@ -446,6 +452,7 @@ export default function Page() {
                                     'portfolio',
                                     'process',
                                     'about',
+                                    'team',
                                     'contact',
                                 ].map((item) => (
                                     <a
