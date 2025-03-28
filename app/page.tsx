@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import InteractiveBackground from '../components/InteractiveBackground';
 export default function Page() {
     const [activeSection, setActiveSection] = useState('home');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -368,9 +369,8 @@ export default function Page() {
     ];
 
     return (
-        <div className="bg-black text-white font-sans min-h-screen" data-oid="_hoy0ic">
-            {' '}
-            {/* Header */}{' '}
+        <div className="bg-black text-white font-sans min-h-screen relative" data-oid="_hoy0ic">
+            <InteractiveBackground /> {/* Header */}{' '}
             <header
                 className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800"
                 data-oid="nxqd95w"
@@ -488,7 +488,7 @@ export default function Page() {
             {/* Hero Section */}{' '}
             <section
                 id="home"
-                className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden"
+                className="pt-32 pb-20 md:pt-40 md:pb-32 relative overflow-hidden z-10"
                 data-oid="ilwcva2"
             >
                 {' '}
@@ -553,7 +553,7 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Services Section */}{' '}
-            <section id="services" className="py-20 bg-gray-900" data-oid=":4e.0i9">
+            <section id="services" className="py-20 bg-gray-900 relative z-10" data-oid=":4e.0i9">
                 {' '}
                 <div className="container mx-auto px-6" data-oid="8zbng-o">
                     {' '}
@@ -604,7 +604,7 @@ export default function Page() {
             {/* Why Choose Us Section */}{' '}
             <section
                 id="why-us"
-                className="py-20 bg-black relative overflow-hidden"
+                className="py-20 bg-black relative overflow-hidden z-10"
                 data-oid="2x2xz25"
             >
                 {' '}
@@ -667,7 +667,7 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Portfolio Section */}{' '}
-            <section id="portfolio" className="py-20 bg-gray-900" data-oid="851_l2p">
+            <section id="portfolio" className="py-20 bg-gray-900 relative z-10" data-oid="851_l2p">
                 {' '}
                 <div className="container mx-auto px-6" data-oid="hluqq_3">
                     {' '}
@@ -754,7 +754,7 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Testimonials Section */}{' '}
-            <section className="py-20 bg-black relative overflow-hidden" data-oid="_7k3l4k">
+            <section className="py-20 bg-black relative overflow-hidden z-10" data-oid="_7k3l4k">
                 {' '}
                 <div className="container mx-auto px-6 relative z-10" data-oid="1_iy5ic">
                     {' '}
@@ -823,7 +823,7 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Process Section */}{' '}
-            <section id="process" className="py-20 bg-gray-900" data-oid="pg2bejx">
+            <section id="process" className="py-20 bg-gray-900 relative z-10" data-oid="pg2bejx">
                 {' '}
                 <div className="container mx-auto px-6" data-oid="6pyswck">
                     {' '}
@@ -885,7 +885,7 @@ export default function Page() {
             {/* About Section */}{' '}
             <section
                 id="about"
-                className="py-20 bg-black relative overflow-hidden"
+                className="py-20 bg-black relative overflow-hidden z-10"
                 data-oid="9.u:azc"
             >
                 {' '}
@@ -1139,7 +1139,7 @@ export default function Page() {
                 ></div>{' '}
             </section>{' '}
             {/* Our Team Section */}{' '}
-            <section id="team" className="py-20 bg-gray-900" data-oid="m1scfd:">
+            <section id="team" className="py-20 bg-gray-900 relative z-10" data-oid="m1scfd:">
                 {' '}
                 <div className="container mx-auto px-6" data-oid="v.ejbip">
                     {' '}
@@ -1316,7 +1316,7 @@ export default function Page() {
             </section>{' '}
             {/* CTA Section */}{' '}
             <section
-                className="py-20 bg-gradient-to-r from-blue-900/30 to-violet-900/30"
+                className="py-20 bg-gradient-to-r from-blue-900/30 to-violet-900/30 relative z-10"
                 data-oid="3m7hfm2"
             >
                 {' '}
@@ -1342,7 +1342,7 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Contact Section */}{' '}
-            <section id="contact" className="py-20 bg-black" data-oid="_wp0oxa">
+            <section id="contact" className="py-20 bg-black relative z-10" data-oid="_wp0oxa">
                 {' '}
                 <div className="container mx-auto px-6" data-oid="_h5-5zg">
                     {' '}
@@ -1671,7 +1671,10 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Footer */}{' '}
-            <footer className="bg-gray-900 border-t border-gray-800" data-oid="wxhbid8">
+            <footer
+                className="bg-gray-900 border-t border-gray-800 relative z-10"
+                data-oid="wxhbid8"
+            >
                 {' '}
                 <div className="container mx-auto px-6 py-12" data-oid="8mnte.i">
                     {' '}
