@@ -821,7 +821,7 @@ export default function Page() {
             {/* Testimonials Section */}{' '}
             <section className="py-20 bg-black relative overflow-hidden z-10" data-oid="j_s4_gl">
                 {' '}
-                <div className="container mx-auto px-6 relative z-10" data-oid="qnumvow">
+                <div className="container mx-auto px-0 relative z-10" data-oid="qnumvow">
                     {' '}
                     <div className="text-center mb-16" data-oid="jc0ug:g">
                         {' '}
