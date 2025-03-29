@@ -835,53 +835,48 @@ export default function Page() {
                             !{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div
-                        className={`flex overflow-x-auto pb-4 space-x-6 scrollbar-hide snap-x snap-mandatory ${testimonials.length > 3 ? 'hover:overflow-x-scroll' : ''}`}
-                        style={{
-                            scrollbarWidth: 'none',
-                            msOverflowStyle: 'none',
-                            scrollBehavior: 'smooth',
-                        }}
-                    >
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="80qw04:">
                         {' '}
                         {testimonials.map((testimonial, index) => (
                             <div
                                 key={index}
-                                className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800 flex-shrink-0 w-full md:w-[calc(33.333%-16px)] snap-center transition-transform duration-300 hover:scale-105"
-                                style={{ minWidth: '280px' }}
+                                className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800"
+                                data-oid=".0oylnn"
                             >
                                 {' '}
-                                <div className="flex items-center mb-6">
+                                <div className="flex items-center mb-6" data-oid="0_jskm5">
                                     {' '}
-                                    <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                    <div
+                                        className="w-12 h-12 rounded-full overflow-hidden mr-4"
+                                        data-oid="uea.zze"
+                                    >
                                         {' '}
                                         <img
                                             src={testimonial.image}
                                             alt={testimonial.name}
                                             className="w-full h-full object-cover"
+                                            data-oid="yk11sdb"
                                         />{' '}
                                     </div>{' '}
-                                    <div>
+                                    <div data-oid="dakmj:6">
                                         {' '}
-                                        <h4 className="font-semibold"> {testimonial.name} </h4>{' '}
-                                        <p className="text-gray-400 text-sm">
+                                        <h4 className="font-semibold" data-oid="rhtfp5n">
+                                            {' '}
+                                            {testimonial.name}{' '}
+                                        </h4>{' '}
+                                        <p className="text-gray-400 text-sm" data-oid="g65k-o1">
                                             {' '}
                                             {testimonial.role}{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <p className="text-gray-300 italic"> "{testimonial.quote}" </p>{' '}
+                                <p className="text-gray-300 italic" data-oid="es:uxyp">
+                                    {' '}
+                                    "{testimonial.quote}"{' '}
+                                </p>{' '}
                             </div>
                         ))}{' '}
                     </div>{' '}
-                    {testimonials.length > 3 && (
-                        <div className="flex justify-center mt-6 space-x-2">
-                            <p className="text-gray-400 text-sm">
-                                <span className="animate-pulse">←</span> Hover to scroll{' '}
-                                <span className="animate-pulse">→</span>
-                            </p>
-                        </div>
-                    )}
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
                 <div
