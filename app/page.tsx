@@ -835,48 +835,70 @@ export default function Page() {
                             !{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-oid="80qw04:">
-                        {' '}
-                        {testimonials.map((testimonial, index) => (
-                            <div
-                                key={index}
-                                className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800"
-                                data-oid=".0oylnn"
-                            >
-                                {' '}
-                                <div className="flex items-center mb-6" data-oid="0_jskm5">
-                                    {' '}
-                                    <div
-                                        className="w-12 h-12 rounded-full overflow-hidden mr-4"
-                                        data-oid="uea.zze"
-                                    >
-                                        {' '}
-                                        <img
-                                            src={testimonial.image}
-                                            alt={testimonial.name}
-                                            className="w-full h-full object-cover"
-                                            data-oid="yk11sdb"
-                                        />{' '}
-                                    </div>{' '}
-                                    <div data-oid="dakmj:6">
-                                        {' '}
-                                        <h4 className="font-semibold" data-oid="rhtfp5n">
-                                            {' '}
-                                            {testimonial.name}{' '}
-                                        </h4>{' '}
-                                        <p className="text-gray-400 text-sm" data-oid="g65k-o1">
-                                            {' '}
-                                            {testimonial.role}{' '}
-                                        </p>{' '}
-                                    </div>{' '}
-                                </div>{' '}
-                                <p className="text-gray-300 italic" data-oid="es:uxyp">
-                                    {' '}
-                                    "{testimonial.quote}"{' '}
-                                </p>{' '}
-                            </div>
-                        ))}{' '}
-                    </div>{' '}
+                    {/* Auto-scrolling testimonial carousel */}
+                    <div
+                        className="relative overflow-hidden"
+                        style={{ padding: '7px 0' }}
+                        data-oid="pm_wco9"
+                    >
+                        <div
+                            className="flex animate-carousel space-x-6"
+                            style={{
+                                animationDuration: `${testimonials.length * 5}s`,
+                                width: `${testimonials.length * 350}px`,
+                            }}
+                            data-oid="3j488_a"
+                        >
+                            {testimonials.concat(testimonials).map((testimonial, index) => (
+                                <div
+                                    key={index}
+                                    className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800 flex-shrink-0 w-[320px] transition-transform duration-300 hover:scale-105 hover:border-blue-500/50"
+                                    data-oid="nj2wzkb"
+                                >
+                                    <div className="flex items-center mb-6" data-oid="i0_nk3.">
+                                        <div
+                                            className="w-12 h-12 rounded-full overflow-hidden mr-4"
+                                            data-oid="i:_gg5m"
+                                        >
+                                            <img
+                                                src={testimonial.image}
+                                                alt={testimonial.name}
+                                                className="w-full h-full object-cover"
+                                                data-oid="be-4.dx"
+                                            />
+                                        </div>
+                                        <div data-oid=":_bmkgo">
+                                            <h4 className="font-semibold" data-oid="isp9x4m">
+                                                {testimonial.name}
+                                            </h4>
+                                            <p className="text-gray-400 text-sm" data-oid="r394md_">
+                                                {testimonial.role}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p className="text-gray-300 italic" data-oid="qabp1fi">
+                                        "{testimonial.quote}"
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <style jsx global data-oid="6kpu83b">{`
+                        @keyframes carousel {
+                            0% {
+                                transform: translateX(0);
+                            }
+                            100% {
+                                transform: translateX(-${testimonials.length * 350}px);
+                            }
+                        }
+                        .animate-carousel {
+                            animation: carousel linear infinite;
+                        }
+                        .animate-carousel:hover {
+                            animation-play-state: paused;
+                        }
+                    `}</style>
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
                 <div
