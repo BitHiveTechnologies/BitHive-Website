@@ -278,27 +278,27 @@ export default function Page() {
     const testimonials = [
         {
             name: 'Pramath Srivastava ',
-            role: 'Team Lead, Raysteeds Energy',
-            quote: 'BitHive transformed our concept into a polished product that exceeded our expectations. Their attention to detail and technical expertise is unmatched.',
+            role: 'Entrepreneur',
+            quote: 'BitHive transformed our Concept into a Polished Product that exceeded our Expectations. Their Attention to Detail and Technical Expertise is Unmatched.',
             image: 'images/Pramath.jpg',
         },
         {
             name: 'Diwakar Y.',
             role: 'Founder, Organic Foods House',
-            quote: 'Working with BitHive was seamless from start to finish. They delivered our Web app ahead of schedule and their ongoing support has been exceptional.',
+            quote: 'Working with BitHive was Seamless from Start to Finish. They Delivered our Web app Ahead of Schedule and their Ongoing Support has been Exceptional.',
             image: 'images/DiwakarClient1.jpeg',
         },
         {
             name: 'Andria',
             role: 'Business Owner',
-            quote: "The team at BitHive doesn't just build what you ask for—they improve upon your ideas with their expertise. True partners in our success.",
+            quote: "The Team at BitHive doesn't just Build what you Ask for—they improve upon your Ideas with their Expertise. True Partners in our Success.",
             image: 'images/Andria.jpg',
         },
         {
-            name: 'Andria',
-            role: 'Business Owner',
-            quote: "The team at BitHive doesn't just build what you ask for—they improve upon your ideas with their expertise. True partners in our success.",
-            image: 'images/Andria.jpg',
+            name: 'Prakhar Singh',
+            role: 'Personal Website',
+            quote: 'The BitHive Team Totally got our Vision. Super Easy to Work with, Fast Turnaround, and the End Result Looked Amazing. Felt More like a Creative Partner than an Agency.',
+            image: 'images/Prakhar.png',
         },
     ];
 
