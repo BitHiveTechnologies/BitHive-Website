@@ -1,7 +1,7 @@
 # Onlook Starter Template
 
 <p align="center">
-  <img src="app/favicon.ico" />
+  <img src="app/BitHive.ico" />
 </p>
 
 This is an [Onlook](https://onlook.com/) project set up with
