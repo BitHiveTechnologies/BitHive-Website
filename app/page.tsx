@@ -1282,17 +1282,34 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="a8vuk0n">
                                 Co-Founder & CTO
                             </p>{' '}
-                            <p className="text-gray-400 text-sm" data-oid="53i8qu6">
-                                {' '}
-                                <a
-                                    href="mailto:ayushsrivastava@bithive.in"
-                                    className="hover:text-blue-400 transition-colors"
-                                    data-oid="exp0w7:"
-                                >
+                            <div className="flex items-center space-x-3 mb-2">
+                                <p className="text-gray-400 text-sm" data-oid="53i8qu6">
                                     {' '}
-                                    ayushsrivastava@bithive.in{' '}
-                                </a>{' '}
-                            </p>{' '}
+                                    <a
+                                        href="mailto:ayushsrivastava@bithive.in"
+                                        className="hover:text-blue-400 transition-colors"
+                                        data-oid="exp0w7:"
+                                    >
+                                        {' '}
+                                        ayushsrivastava@bithive.in{' '}
+                                    </a>{' '}
+                                </p>
+                                <a
+                                    href="https://www.linkedin.com/in/ayush-srivastava-bithive"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-5 w-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>{' '}
                         {/* Team Member 2 */}{' '}
                         <div
@@ -1320,17 +1337,34 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="74z4j8j">
                                 Co-Founder & Tech Lead
                             </p>{' '}
-                            <p className="text-gray-400 text-sm" data-oid="1yl:1_k">
-                                {' '}
-                                <a
-                                    href="mailto:saurabhsingh@bithive.in"
-                                    className="hover:text-blue-400 transition-colors"
-                                    data-oid="a_1h_xc"
-                                >
+                            <div className="flex items-center space-x-3 mb-2">
+                                <p className="text-gray-400 text-sm" data-oid="1yl:1_k">
                                     {' '}
-                                    saurabhsingh@bithive.in{' '}
-                                </a>{' '}
-                            </p>{' '}
+                                    <a
+                                        href="mailto:saurabhsingh@bithive.in"
+                                        className="hover:text-blue-400 transition-colors"
+                                        data-oid="a_1h_xc"
+                                    >
+                                        {' '}
+                                        saurabhsingh@bithive.in{' '}
+                                    </a>{' '}
+                                </p>
+                                <a
+                                    href="https://www.linkedin.com/in/saurabh-singh-bithive"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-5 w-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>{' '}
                         {/* Team Member 3 */}{' '}
                         <div
@@ -1358,17 +1392,34 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="ydb1a.s">
                                 CMO/CSO
                             </p>{' '}
-                            <p className="text-gray-400 text-sm" data-oid="d-_v_lf">
-                                {' '}
-                                <a
-                                    href="mailto:ayushkumar@bithive.in"
-                                    className="hover:text-blue-400 transition-colors"
-                                    data-oid="8ycfk5a"
-                                >
+                            <div className="flex items-center space-x-3 mb-2">
+                                <p className="text-gray-400 text-sm" data-oid="d-_v_lf">
                                     {' '}
-                                    ayushkumar@bithive.in{' '}
-                                </a>{' '}
-                            </p>{' '}
+                                    <a
+                                        href="mailto:ayushkumar@bithive.in"
+                                        className="hover:text-blue-400 transition-colors"
+                                        data-oid="8ycfk5a"
+                                    >
+                                        {' '}
+                                        ayushkumar@bithive.in{' '}
+                                    </a>{' '}
+                                </p>
+                                <a
+                                    href="https://www.linkedin.com/in/ayush-kumar-bithive"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-5 w-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>{' '}
                         {/* Team Member 4 */}{' '}
                         <div
@@ -1396,17 +1447,34 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="fi23f:y">
                                 COO & Team Lead
                             </p>{' '}
-                            <p className="text-gray-400 text-sm" data-oid="n4_a7x-">
-                                {' '}
-                                <a
-                                    href="mailto:priyanshkandwal@bithive.in"
-                                    className="hover:text-blue-400 transition-colors"
-                                    data-oid="b3dev-4"
-                                >
+                            <div className="flex items-center space-x-3 mb-2">
+                                <p className="text-gray-400 text-sm" data-oid="n4_a7x-">
                                     {' '}
-                                    priyanshkandwal@bithive.in{' '}
-                                </a>{' '}
-                            </p>{' '}
+                                    <a
+                                        href="mailto:priyanshkandwal@bithive.in"
+                                        className="hover:text-blue-400 transition-colors"
+                                        data-oid="b3dev-4"
+                                    >
+                                        {' '}
+                                        priyanshkandwal@bithive.in{' '}
+                                    </a>{' '}
+                                </p>
+                                <a
+                                    href="https://www.linkedin.com/in/priyansh-kandwal-bithive"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="h-5 w-5"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>{' '}
                     </div>{' '}
                 </div>{' '}
