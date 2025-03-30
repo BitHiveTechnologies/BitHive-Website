@@ -1304,8 +1304,24 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="a8vuk0n">
                                 Co-Founder & CTO
                             </p>{' '}
-                            <p className="text-gray-400 text-sm mb-2" data-oid="53i8qu6">
-                                {' '}
+                            <p
+                                className="text-gray-400 text-sm mb-2 flex items-center"
+                                data-oid="53i8qu6"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-4 w-4 mr-2"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={1.5}
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
+                                </svg>
                                 <a
                                     href="mailto:ayushsrivastava@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
@@ -1364,8 +1380,24 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="74z4j8j">
                                 Co-Founder & Tech Lead
                             </p>{' '}
-                            <p className="text-gray-400 text-sm mb-2" data-oid="1yl:1_k">
-                                {' '}
+                            <p
+                                className="text-gray-400 text-sm mb-2 flex items-center"
+                                data-oid="1yl:1_k"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-4 w-4 mr-2"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={1.5}
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
+                                </svg>
                                 <a
                                     href="mailto:saurabhsingh@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
@@ -1424,8 +1456,24 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="ydb1a.s">
                                 CMO/CSO
                             </p>{' '}
-                            <p className="text-gray-400 text-sm mb-2" data-oid="d-_v_lf">
-                                {' '}
+                            <p
+                                className="text-gray-400 text-sm mb-2 flex items-center"
+                                data-oid="d-_v_lf"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-4 w-4 mr-2"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={1.5}
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
+                                </svg>
                                 <a
                                     href="mailto:ayushkumar@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
@@ -1484,8 +1532,24 @@ export default function Page() {
                             <p className="text-blue-400 mb-2" data-oid="fi23f:y">
                                 COO & Team Lead
                             </p>{' '}
-                            <p className="text-gray-400 text-sm mb-2" data-oid="n4_a7x-">
-                                {' '}
+                            <p
+                                className="text-gray-400 text-sm mb-2 flex items-center"
+                                data-oid="n4_a7x-"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-4 w-4 mr-2"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={1.5}
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
+                                </svg>
                                 <a
                                     href="mailto:priyanshkandwal@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
