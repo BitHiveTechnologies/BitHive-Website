@@ -260,7 +260,7 @@ export default function InteractiveBackground() {
         <canvas
             ref={canvasRef}
             className="fixed top-0 left-0 w-full h-full pointer-events-none z-0"
-            data-oid="0t0moyr"
+            data-oid="2uq:wh-"
         />
     );
 }
