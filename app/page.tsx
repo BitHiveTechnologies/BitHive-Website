@@ -1,12 +1,81 @@
 'use client';
 import Link from 'next/link';
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState, FormEvent } from 'react';
 
 // Lazy load the InteractiveBackground component
 const InteractiveBackground = lazy(() => import('../components/InteractiveBackground'));
+
+// Form status interface
+interface FormStatus {
+    loading: boolean;
+    success: boolean;
+    message: string;
+}
+
 export default function Page() {
     const [activeSection, setActiveSection] = useState('home');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [formStatus, setFormStatus] = useState<FormStatus>({
+        loading: false,
+        success: false,
+        message: '',
+    });
+
+    // Handle contact form submission
+    const handleContactSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        setFormStatus({
+            loading: true,
+            success: false,
+            message: '',
+        });
+
+        // Get form data
+        const formData = new FormData(e.currentTarget);
+        const formValues = {
+            name: formData.get('name') as string,
+            email: formData.get('email') as string,
+            subject: formData.get('subject') as string,
+            message: formData.get('message') as string,
+        };
+
+        try {
+            // Send form data to API route
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formValues),
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+                // Reset form on success
+                (e.target as HTMLFormElement).reset();
+                setFormStatus({
+                    loading: false,
+                    success: true,
+                    message: 'Thank you! Your message has been sent successfully.',
+                });
+            } else {
+                setFormStatus({
+                    loading: false,
+                    success: false,
+                    message: data.error || 'Something went wrong. Please try again.',
+                });
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            setFormStatus({
+                loading: false,
+                success: false,
+                message: 'Network error. Please try again later.',
+            });
+        }
+    };
     useEffect(() => {
         // Throttle scroll event for better performance
         let scrollTimeout: NodeJS.Timeout | null;
@@ -1783,7 +1852,7 @@ export default function Page() {
                             data-oid=":o-lrr."
                         >
                             {' '}
-                            <form data-oid="--t9vb2">
+                            <form onSubmit={handleContactSubmit} data-oid="--t9vb2">
                                 {' '}
                                 <div
                                     className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4"
@@ -1803,8 +1872,10 @@ export default function Page() {
                                         <input
                                             type="text"
                                             id="name"
+                                            name="name"
                                             className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                             placeholder="Your name"
+                                            required
                                             data-oid="1xknbkw"
                                         />{' '}
                                     </div>{' '}
@@ -1821,8 +1892,10 @@ export default function Page() {
                                         <input
                                             type="email"
                                             id="email"
+                                            name="email"
                                             className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                             placeholder="Your email"
+                                            required
                                             data-oid="q-935jf"
                                         />{' '}
                                     </div>{' '}
@@ -1840,8 +1913,10 @@ export default function Page() {
                                     <input
                                         type="text"
                                         id="subject"
+                                        name="subject"
                                         className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                         placeholder="Subject"
+                                        required
                                         data-oid="zfg:nmn"
                                     />{' '}
                                 </div>{' '}
@@ -1857,19 +1932,29 @@ export default function Page() {
                                     </label>{' '}
                                     <textarea
                                         id="message"
+                                        name="message"
                                         rows={5}
                                         className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                         placeholder="Your message"
+                                        required
                                         data-oid="rykynha"
                                     ></textarea>{' '}
                                 </div>{' '}
+                                {formStatus.message && (
+                                    <div
+                                        className={`mb-4 p-3 rounded-md ${formStatus.success ? 'bg-green-500/20 text-green-300' : 'bg-red-500/20 text-red-300'}`}
+                                    >
+                                        {formStatus.message}
+                                    </div>
+                                )}
                                 <button
                                     type="submit"
-                                    className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20"
+                                    className={`w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20 ${formStatus.loading ? 'opacity-70 cursor-not-allowed' : ''}`}
+                                    disabled={formStatus.loading}
                                     data-oid=":m4-80h"
                                 >
                                     {' '}
-                                    Send Message{' '}
+                                    {formStatus.loading ? 'Sending...' : 'Send Message'}{' '}
                                 </button>{' '}
                             </form>{' '}
                         </div>{' '}
