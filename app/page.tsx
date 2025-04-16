@@ -58,7 +58,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="aq2nue:"
                 >
                     {' '}
                     <path
@@ -66,7 +65,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        data-oid="6hnko:v"
                     />{' '}
                 </svg>
             ),
@@ -82,7 +80,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="o9y05ch"
                 >
                     {' '}
                     <path
@@ -90,7 +87,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-                        data-oid="ahoe9tm"
                     />{' '}
                 </svg>
             ),
@@ -106,7 +102,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="8of31ax"
                 >
                     {' '}
                     <path
@@ -114,7 +109,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                        data-oid="purgxfw"
                     />{' '}
                 </svg>
             ),
@@ -130,7 +124,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="ozamjc1"
                 >
                     {' '}
                     <path
@@ -138,7 +131,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                        data-oid="c8qlxb5"
                     />{' '}
                 </svg>
             ),
@@ -157,7 +149,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="k2bz:1t"
                 >
                     {' '}
                     <path
@@ -165,7 +156,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                        data-oid="d5ckhj0"
                     />{' '}
                 </svg>
             ),
@@ -181,7 +171,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="jub:.mr"
                 >
                     {' '}
                     <path
@@ -189,7 +178,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                        data-oid="v1n2fde"
                     />{' '}
                 </svg>
             ),
@@ -205,7 +193,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="akyd3sl"
                 >
                     {' '}
                     <path
@@ -213,7 +200,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M13 10V3L4 14h7v7l9-11h-7z"
-                        data-oid="jp12zho"
                     />{' '}
                 </svg>
             ),
@@ -229,7 +215,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="rm2p2a4"
                 >
                     {' '}
                     <path
@@ -237,7 +222,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                        data-oid="zeus3r4"
                     />{' '}
                 </svg>
             ),
@@ -314,7 +298,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="cdgz09m"
                 >
                     {' '}
                     <path
@@ -322,7 +305,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        data-oid="qk0sk5_"
                     />{' '}
                 </svg>
             ),
@@ -338,7 +320,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="80mze:b"
                 >
                     {' '}
                     <path
@@ -346,7 +327,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-                        data-oid="w5ayjpu"
                     />{' '}
                 </svg>
             ),
@@ -362,7 +342,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="iyp49po"
                 >
                     {' '}
                     <path
@@ -370,7 +349,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                        data-oid="hdddz8o"
                     />{' '}
                 </svg>
             ),
@@ -386,7 +364,6 @@ export default function Page() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    data-oid="b.64w5o"
                 >
                     {' '}
                     <path
@@ -394,7 +371,6 @@ export default function Page() {
                         strokeLinejoin="round"
                         strokeWidth={1.5}
                         d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                        data-oid="r:23651"
                     />{' '}
                 </svg>
             ),
@@ -402,45 +378,35 @@ export default function Page() {
     ];
 
     return (
-        <div className="bg-black text-white font-sans min-h-screen relative" data-oid="5tkx6_v">
+        <div className="bg-black text-white font-sans min-h-screen relative">
             <Suspense
-                fallback={
-                    <div
-                        className="fixed top-0 left-0 w-full h-full bg-black z-0"
-                        data-oid="unes6ta"
-                    ></div>
-                }
-                data-oid="lf8fk_0"
+                fallback={<div className="fixed top-0 left-0 w-full h-full bg-black z-0"></div>}
             >
-                <InteractiveBackground data-oid="yq1zqw3" />
+                <InteractiveBackground />
             </Suspense>
             {/* Header */}{' '}
-            <header
-                className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800"
-                data-oid="pw7uc.."
-            >
+            <header className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800">
                 {' '}
-                <div className="container mx-auto px-6 py-4" data-oid="_uyorun">
+                <div className="container mx-auto px-6 py-4">
                     {' '}
-                    <div className="flex justify-between items-center" data-oid="kks37zd">
+                    <div className="flex justify-between items-center">
                         {' '}
-                        <div className="flex items-center space-x-2" data-oid="9vwn19d">
+                        <div className="flex items-center space-x-2">
                             {' '}
-                            <div className="h-14" data-oid="p449vpr">
+                            <div className="h-14">
                                 {' '}
-                                <Link href="/" data-oid="xuyymv7">
+                                <Link href="/">
                                     <img
                                         src="/images/PHOTO-2025-03-28-20-01-27.jpg"
                                         alt="BitHive Technologies Logo"
                                         className="h-full w-auto rounded-md object-contain"
                                         loading="eager"
-                                        data-oid="ys6nl._"
                                     />{' '}
                                 </Link>
                             </div>{' '}
                         </div>{' '}
                         {/* Desktop Navigation */}{' '}
-                        <nav className="hidden md:flex space-x-8" data-oid="0cbo:nr">
+                        <nav className="hidden md:flex space-x-8">
                             {' '}
                             {[
                                 'home',
@@ -455,7 +421,6 @@ export default function Page() {
                                     key={item}
                                     href={`#${item}`}
                                     className={`text-sm uppercase tracking-wider hover:text-blue-400 transition-colors ${activeSection === item ? 'text-blue-400' : 'text-gray-300'}`}
-                                    data-oid="bxquixg"
                                 >
                                     {' '}
                                     {item}{' '}
@@ -467,7 +432,6 @@ export default function Page() {
                             className="md:hidden text-gray-300 focus:outline-none"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-                            data-oid="652_euw"
                         >
                             {' '}
                             <svg
@@ -476,7 +440,6 @@ export default function Page() {
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
-                                data-oid="wen7fuv"
                             >
                                 {' '}
                                 {isMenuOpen ? (
@@ -485,7 +448,6 @@ export default function Page() {
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M6 18L18 6M6 6l12 12"
-                                        data-oid="txhu3z1"
                                     />
                                 ) : (
                                     <path
@@ -493,7 +455,6 @@ export default function Page() {
                                         strokeLinejoin="round"
                                         strokeWidth={2}
                                         d="M4 6h16M4 12h16M4 18h16"
-                                        data-oid="9qpj8y."
                                     />
                                 )}{' '}
                             </svg>{' '}
@@ -501,12 +462,9 @@ export default function Page() {
                     </div>{' '}
                     {/* Mobile Navigation */}{' '}
                     {isMenuOpen && (
-                        <nav
-                            className="md:hidden pt-4 pb-2 border-t border-gray-800 mt-4"
-                            data-oid=".34.uet"
-                        >
+                        <nav className="md:hidden pt-4 pb-2 border-t border-gray-800 mt-4">
                             {' '}
-                            <div className="flex flex-col space-y-3" data-oid="bg6gb_k">
+                            <div className="flex flex-col space-y-3">
                                 {' '}
                                 {[
                                     'home',
@@ -522,7 +480,6 @@ export default function Page() {
                                         href={`#${item}`}
                                         className={`text-sm uppercase tracking-wider hover:text-blue-400 transition-colors ${activeSection === item ? 'text-blue-400' : 'text-gray-300'}`}
                                         onClick={() => setIsMenuOpen(false)}
-                                        data-oid="1e-wx9g"
                                     >
                                         {' '}
                                         {item}{' '}
@@ -537,52 +494,38 @@ export default function Page() {
             <section
                 id="home"
                 className="pt-40 pb-20 md:pt-48 md:pb-32 relative overflow-hidden z-10"
-                data-oid="3x10cyr"
             >
                 {' '}
-                <div
-                    className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20 z-0"
-                    data-oid="p5.ltp7"
-                ></div>{' '}
-                <div className="container mx-auto px-6 relative z-10" data-oid="78d1-q6">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20 z-0"></div>{' '}
+                <div className="container mx-auto px-6 relative z-10">
                     {' '}
-                    <div className="max-w-3xl" data-oid="m5ag37h">
+                    <div className="max-w-3xl">
                         {' '}
-                        <h1
-                            className="text-4xl md:text-6xl font-bold leading-tight mb-6"
-                            data-oid="sljpyj."
-                        >
+                        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
                             {' '}
                             We Build{' '}
-                            <span
-                                className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
-                                data-oid=":aimzqx"
-                            >
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500">
                                 {' '}
                                 Digital Experiences{' '}
                             </span>{' '}
                             That
-                            <span
-                                className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500"
-                                data-oid="anni4w8"
-                            >
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-violet-500">
                                 {' '}
                                 Buzzes{' '}
                             </span>{' '}
                             and Drives Growth{' '}
                         </h1>{' '}
-                        <p className="text-xl text-gray-300 mb-10 max-w-2xl" data-oid="5x_cv2u">
+                        <p className="text-xl text-gray-300 mb-10 max-w-2xl">
                             {' '}
                             BitHive Technologies is a Digital Agency specializing in Cutting-edge
                             Solutions for Startups and Fast-growing Brands. We Transform Ideas into
                             Powerful Digital Products.{' '}
                         </p>{' '}
-                        <div className="flex flex-col sm:flex-row gap-4" data-oid=".ehff1b">
+                        <div className="flex flex-col sm:flex-row gap-4">
                             {' '}
                             <a
                                 href="#contact"
                                 className="px-8 py-4 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20 text-center"
-                                data-oid="6jtgy6a"
                             >
                                 {' '}
                                 Let's Buzz{' '}
@@ -590,7 +533,6 @@ export default function Page() {
                             <a
                                 href="#services"
                                 className="px-8 py-4 bg-gray-800 rounded-md text-white font-medium hover:bg-gray-700 transition-all text-center"
-                                data-oid="-8t1k44"
                             >
                                 {' '}
                                 Explore Services{' '}
@@ -599,189 +541,121 @@ export default function Page() {
                     </div>{' '}
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
-                <div
-                    className="absolute -bottom-16 -right-16 w-64 h-64 bg-gradient-to-r from-blue-500/20 to-violet-500/20 rounded-full blur-3xl"
-                    data-oid="esvy5v1"
-                ></div>{' '}
-                <div
-                    className="absolute top-20 -right-20 w-80 h-80 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-full blur-3xl"
-                    data-oid="brihnbi"
-                ></div>{' '}
+                <div className="absolute -bottom-16 -right-16 w-64 h-64 bg-gradient-to-r from-blue-500/20 to-violet-500/20 rounded-full blur-3xl"></div>{' '}
+                <div className="absolute top-20 -right-20 w-80 h-80 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-full blur-3xl"></div>{' '}
             </section>{' '}
             {/* Services Section */}{' '}
-            <section
-                id="services"
-                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
-                data-oid="05lvbe6"
-            >
+            <section id="services" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10">
                 {' '}
-                <div className="container mx-auto px-6" data-oid="ygf7ko.">
+                <div className="container mx-auto px-6">
                     {' '}
-                    <div className="text-center mb-16" data-oid="qaacfjx">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="ynq4r9x">
-                            {' '}
-                            Our Services{' '}
-                        </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="an01i:x">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4"> Our Services </h2>{' '}
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             We Offer end-to-end digital solutions tailored to your unique Business
                             needs{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-                        data-oid="g_zs0a4"
-                    >
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {' '}
                         {services.map((service, index) => (
                             <div
                                 key={index}
                                 className="bg-black p-8 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group"
-                                data-oid="-arr8eb"
                             >
                                 {' '}
-                                <div
-                                    className="text-blue-400 mb-4 group-hover:text-blue-300 transition-colors"
-                                    data-oid="6e2n4ep"
-                                >
+                                <div className="text-blue-400 mb-4 group-hover:text-blue-300 transition-colors">
                                     {' '}
                                     {service.icon}{' '}
                                 </div>{' '}
-                                <h3 className="text-xl font-semibold mb-3" data-oid="nglmm_m">
-                                    {' '}
-                                    {service.title}{' '}
-                                </h3>{' '}
-                                <p className="text-gray-400" data-oid="4qjlgv_">
-                                    {' '}
-                                    {service.description}{' '}
-                                </p>{' '}
+                                <h3 className="text-xl font-semibold mb-3"> {service.title} </h3>{' '}
+                                <p className="text-gray-400"> {service.description} </p>{' '}
                             </div>
                         ))}{' '}
                     </div>{' '}
                 </div>{' '}
             </section>{' '}
             {/* Why Choose Us Section */}{' '}
-            <section
-                id="why-us"
-                className="py-20 bg-black relative overflow-hidden z-10"
-                data-oid="z_0pj4_"
-            >
+            <section id="why-us" className="py-20 bg-black relative overflow-hidden z-10">
                 {' '}
-                <div className="container mx-auto px-6 relative z-10" data-oid="nl.rnld">
+                <div className="container mx-auto px-6 relative z-10">
                     {' '}
-                    <div className="text-center mb-16" data-oid="ui27ke1">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="0-pd0..">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
                             {' '}
                             Why Choose Us ?{' '}
                         </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="u2mddg0">
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             We Combine Technical Expertise with Strategic thinking to deliver
                             Exceptional Results{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-                        data-oid="l_p9k9i"
-                    >
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {' '}
                         {values.map((value, index) => (
                             <div
                                 key={index}
                                 className="bg-gray-900/50 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all"
-                                data-oid="2epv59m"
                             >
                                 {' '}
-                                <div
-                                    className="bg-gradient-to-br from-blue-500/20 to-violet-500/20 p-3 rounded-lg inline-block mb-4"
-                                    data-oid="l8d5ewl"
-                                >
+                                <div className="bg-gradient-to-br from-blue-500/20 to-violet-500/20 p-3 rounded-lg inline-block mb-4">
                                     {' '}
-                                    <div className="text-blue-400" data-oid="bit2f3n">
-                                        {' '}
-                                        {value.icon}{' '}
-                                    </div>{' '}
+                                    <div className="text-blue-400"> {value.icon} </div>{' '}
                                 </div>{' '}
-                                <h3 className="text-xl font-semibold mb-2" data-oid="gu:0vw3">
-                                    {' '}
-                                    {value.title}{' '}
-                                </h3>{' '}
-                                <p className="text-gray-400" data-oid="gqrbt_k">
-                                    {' '}
-                                    {value.description}{' '}
-                                </p>{' '}
+                                <h3 className="text-xl font-semibold mb-2"> {value.title} </h3>{' '}
+                                <p className="text-gray-400"> {value.description} </p>{' '}
                             </div>
                         ))}{' '}
                     </div>{' '}
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
-                <div
-                    className="absolute -top-40 -left-40 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"
-                    data-oid="mty6mua"
-                ></div>{' '}
-                <div
-                    className="absolute -bottom-20 -right-20 w-80 h-80 bg-violet-500/5 rounded-full blur-3xl"
-                    data-oid="0z5h-.0"
-                ></div>{' '}
+                <div className="absolute -top-40 -left-40 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"></div>{' '}
+                <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-violet-500/5 rounded-full blur-3xl"></div>{' '}
             </section>{' '}
             {/* Portfolio Section */}{' '}
-            <section
-                id="portfolio"
-                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
-                data-oid="0xvaegc"
-            >
+            <section id="portfolio" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10">
                 {' '}
-                <div className="container mx-auto px-6" data-oid="sa4g3u8">
+                <div className="container mx-auto px-6">
                     {' '}
-                    <div className="text-center mb-16" data-oid="ypcvmc1">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="7p2g2a4">
-                            {' '}
-                            Our Work{' '}
-                        </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="4qkmsq9">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4"> Our Work </h2>{' '}
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             Explore our Recent Projects and see how we've helped Businesses achieve
                             their Goals{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-oid="exxoicw">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {' '}
                         {portfolio.map((project, index) => (
                             <div
                                 key={index}
                                 className="bg-black rounded-lg overflow-hidden group hover:shadow-lg hover:shadow-blue-500/10 transition-all"
-                                data-oid="v:obdvl"
                             >
                                 {' '}
-                                <div className="relative h-64 overflow-hidden" data-oid="o8bpe88">
+                                <div className="relative h-64 overflow-hidden">
                                     {' '}
                                     <img
                                         src={project.image}
                                         alt={project.title}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                         loading="lazy"
-                                        data-oid="yb.uaxi"
                                     />{' '}
-                                    <div
-                                        className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end"
-                                        data-oid="5eu.c8m"
-                                    >
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end">
                                         {' '}
-                                        <div className="p-6" data-oid="9t8swn6">
+                                        <div className="p-6">
                                             {' '}
-                                            <div
-                                                className="flex flex-wrap gap-2 mb-3"
-                                                data-oid="q4555zk"
-                                            >
+                                            <div className="flex flex-wrap gap-2 mb-3">
                                                 {' '}
                                                 {project.tags.map((tag, tagIndex) => (
                                                     <span
                                                         key={tagIndex}
                                                         className="text-xs bg-blue-500/20 text-blue-300 px-2 py-1 rounded"
-                                                        data-oid="wb8_xh-"
                                                     >
                                                         {' '}
                                                         {tag}{' '}
@@ -791,26 +665,22 @@ export default function Page() {
                                         </div>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="p-6" data-oid="-ttb_19">
+                                <div className="p-6">
                                     {' '}
-                                    <h3 className="text-xl font-semibold mb-2" data-oid="44i8rek">
+                                    <h3 className="text-xl font-semibold mb-2">
                                         {' '}
                                         {project.title}{' '}
                                     </h3>{' '}
-                                    <p className="text-gray-400" data-oid="hxuoa_q">
-                                        {' '}
-                                        {project.description}{' '}
-                                    </p>{' '}
+                                    <p className="text-gray-400"> {project.description} </p>{' '}
                                 </div>{' '}
                             </div>
                         ))}{' '}
                     </div>{' '}
-                    <div className="text-center mt-12" data-oid="mz7-3ed">
+                    <div className="text-center mt-12">
                         {' '}
                         <a
                             href="#contact"
                             className="inline-block px-8 py-3 bg-gray-800 rounded-md text-white font-medium hover:bg-gray-700 transition-all"
-                            data-oid="f1pigfe"
                         >
                             {' '}
                             View All Projects{' '}
@@ -819,71 +689,57 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Testimonials Section */}{' '}
-            <section className="py-20 bg-black relative overflow-hidden z-10" data-oid="g_weyx6">
+            <section className="py-20 bg-black relative overflow-hidden z-10">
                 {' '}
-                <div className="container mx-auto px-0 relative z-10" data-oid="akw2xmk">
+                <div className="container mx-auto px-0 relative z-10">
                     {' '}
-                    <div className="text-center mb-16" data-oid="8cxst9d">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="hr71jgk">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
                             {' '}
                             Client Testimonials{' '}
                         </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="aqnolz_">
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             Don't just take our Word for it — Hear What our Clients have to Say
                             !{' '}
                         </p>{' '}
                     </div>{' '}
                     {/* Auto-scrolling testimonial carousel */}
-                    <div
-                        className="relative overflow-hidden"
-                        style={{ padding: '7px 0' }}
-                        data-oid="gq0x.rf"
-                    >
+                    <div className="relative overflow-hidden" style={{ padding: '7px 0' }}>
                         <div
                             className="flex animate-carousel space-x-6"
                             style={{
                                 animationDuration: `${testimonials.length * 5}s`,
                                 width: `${testimonials.length * 350}px`,
                             }}
-                            data-oid="odz_wu7"
                         >
                             {testimonials.concat(testimonials).map((testimonial, index) => (
                                 <div
                                     key={index}
                                     className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800 flex-shrink-0 w-[320px] transition-transform duration-300 hover:scale-105 hover:border-blue-500/50"
-                                    data-oid="6o2p-qn"
                                 >
-                                    <div className="flex items-center mb-6" data-oid="9eaqdk7">
-                                        <div
-                                            className="w-12 h-12 rounded-full overflow-hidden mr-4"
-                                            data-oid="ufm57f4"
-                                        >
+                                    <div className="flex items-center mb-6">
+                                        <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
                                             <img
                                                 src={testimonial.image}
                                                 alt={testimonial.name}
                                                 className="w-full h-full object-cover"
-                                                data-oid="-:iozb2"
                                             />
                                         </div>
-                                        <div data-oid="w0fr5kg">
-                                            <h4 className="font-semibold" data-oid="9nlcox7">
-                                                {testimonial.name}
-                                            </h4>
-                                            <p className="text-gray-400 text-sm" data-oid="5h:r_98">
+                                        <div>
+                                            <h4 className="font-semibold">{testimonial.name}</h4>
+                                            <p className="text-gray-400 text-sm">
                                                 {testimonial.role}
                                             </p>
                                         </div>
                                     </div>
-                                    <p className="text-gray-300 italic" data-oid="tk82g5w">
-                                        "{testimonial.quote}"
-                                    </p>
+                                    <p className="text-gray-300 italic">"{testimonial.quote}"</p>
                                 </div>
                             ))}
                         </div>
                     </div>
-                    <style jsx global data-oid="q0693rd">{`
+                    <style jsx global>{`
                         @keyframes carousel {
                             0% {
                                 transform: translateX(0);
@@ -901,73 +757,39 @@ export default function Page() {
                     `}</style>
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
-                <div
-                    className="absolute top-0 left-1/4 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"
-                    data-oid="2bco904"
-                ></div>{' '}
-                <div
-                    className="absolute bottom-0 right-1/4 w-64 h-64 bg-violet-500/5 rounded-full blur-3xl"
-                    data-oid="e8jus3a"
-                ></div>{' '}
+                <div className="absolute top-0 left-1/4 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"></div>{' '}
+                <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-violet-500/5 rounded-full blur-3xl"></div>{' '}
             </section>{' '}
             {/* Process Section */}{' '}
-            <section
-                id="process"
-                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
-                data-oid="5yllgrp"
-            >
+            <section id="process" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10">
                 {' '}
-                <div className="container mx-auto px-6" data-oid="0.gpehx">
+                <div className="container mx-auto px-6">
                     {' '}
-                    <div className="text-center mb-16" data-oid="4.d11c6">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="ua:4o2y">
-                            {' '}
-                            Our Process{' '}
-                        </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="3ra1i6t">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4"> Our Process </h2>{' '}
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             A Streamlined Approach to delivering Exceptional Results{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-                        data-oid="s_-hq_n"
-                    >
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {' '}
                         {process.map((step, index) => (
-                            <div key={index} className="relative" data-oid="hokgr30">
+                            <div key={index} className="relative">
                                 {' '}
-                                <div
-                                    className="bg-black p-6 rounded-lg border border-gray-800 h-full"
-                                    data-oid=".vrut.g"
-                                >
+                                <div className="bg-black p-6 rounded-lg border border-gray-800 h-full">
                                     {' '}
-                                    <div
-                                        className="bg-gradient-to-br from-blue-500/20 to-violet-500/20 p-3 rounded-lg inline-block mb-4"
-                                        data-oid="z3qtc8-"
-                                    >
+                                    <div className="bg-gradient-to-br from-blue-500/20 to-violet-500/20 p-3 rounded-lg inline-block mb-4">
                                         {' '}
-                                        <div className="text-blue-400" data-oid="jnulhb0">
-                                            {' '}
-                                            {step.icon}{' '}
-                                        </div>{' '}
+                                        <div className="text-blue-400"> {step.icon} </div>{' '}
                                     </div>{' '}
-                                    <h3 className="text-xl font-semibold mb-2" data-oid="42lq69a">
-                                        {' '}
-                                        {step.title}{' '}
-                                    </h3>{' '}
-                                    <p className="text-gray-400" data-oid="tzsjdp-">
-                                        {' '}
-                                        {step.description}{' '}
-                                    </p>{' '}
+                                    <h3 className="text-xl font-semibold mb-2"> {step.title} </h3>{' '}
+                                    <p className="text-gray-400"> {step.description} </p>{' '}
                                 </div>{' '}
                                 {/* Connector line */}{' '}
                                 {index < process.length - 1 && (
-                                    <div
-                                        className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-blue-500 to-violet-500"
-                                        data-oid="5xpdp2n"
-                                    ></div>
+                                    <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-blue-500 to-violet-500"></div>
                                 )}{' '}
                             </div>
                         ))}{' '}
@@ -975,26 +797,19 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* About Section */}{' '}
-            <section
-                id="about"
-                className="py-20 bg-black relative overflow-hidden z-10"
-                data-oid="vjb3ynv"
-            >
+            <section id="about" className="py-20 bg-black relative overflow-hidden z-10">
                 {' '}
-                <div className="container mx-auto px-6 relative z-10" data-oid="s.uknni">
+                <div className="container mx-auto px-6 relative z-10">
                     {' '}
-                    <div
-                        className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
-                        data-oid="3t91st5"
-                    >
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         {' '}
-                        <div data-oid="q7qp75r">
+                        <div>
                             {' '}
-                            <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid="ne5nv43">
+                            <h2 className="text-3xl md:text-4xl font-bold mb-6">
                                 {' '}
                                 About BitHive Technologies{' '}
                             </h2>{' '}
-                            <p className="text-gray-300 mb-6" data-oid="cg:300s">
+                            <p className="text-gray-300 mb-6">
                                 {' '}
                                 We're a Team of Passionate Developers, Designers, and Strategists
                                 dedicated to creating Exceptional Digital Experiences. Founded with
@@ -1002,7 +817,7 @@ export default function Page() {
                                 Technology to achieve their Goals, BitHive Technologies combines
                                 Technical Expertise with Creative Thinking.{' '}
                             </p>{' '}
-                            <p className="text-gray-300 mb-6" data-oid="2nllk8r">
+                            <p className="text-gray-300 mb-6">
                                 {' '}
                                 Our Approach is Collaborative and Transparent, ensuring that we
                                 understand your Vision and deliver Solutions that exceed
@@ -1010,78 +825,48 @@ export default function Page() {
                                 provide Innovative Solutions that give our Clients a Competitive
                                 Edge.{' '}
                             </p>{' '}
-                            <div className="flex flex-wrap gap-4" data-oid="dd-x:nc">
+                            <div className="flex flex-wrap gap-4">
                                 {' '}
-                                <div
-                                    className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md"
-                                    data-oid="62t-ae8"
-                                >
+                                <div className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md">
                                     {' '}
-                                    <span
-                                        className="text-blue-400 font-bold text-2xl"
-                                        data-oid="s-ky5fg"
-                                    >
+                                    <span className="text-blue-400 font-bold text-2xl">
                                         {' '}
                                         20+{' '}
                                     </span>{' '}
-                                    <p className="text-gray-400 text-sm" data-oid="p43o1uj">
+                                    <p className="text-gray-400 text-sm">
                                         {' '}
                                         Projects Completed{' '}
                                     </p>{' '}
                                 </div>{' '}
-                                <div
-                                    className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md"
-                                    data-oid="l5w0bjd"
-                                >
+                                <div className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md">
                                     {' '}
-                                    <span
-                                        className="text-blue-400 font-bold text-2xl"
-                                        data-oid="w0dm1zu"
-                                    >
+                                    <span className="text-blue-400 font-bold text-2xl">
                                         {' '}
                                         15+{' '}
                                     </span>{' '}
-                                    <p className="text-gray-400 text-sm" data-oid="-q-y_uo">
-                                        {' '}
-                                        Happy Clients{' '}
-                                    </p>{' '}
+                                    <p className="text-gray-400 text-sm"> Happy Clients </p>{' '}
                                 </div>{' '}
-                                <div
-                                    className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md"
-                                    data-oid="s2nz1lo"
-                                >
+                                <div className="bg-gray-900/50 backdrop-blur-sm px-4 py-2 rounded-md">
                                     {' '}
-                                    <span
-                                        className="text-blue-400 font-bold text-2xl"
-                                        data-oid="y:v49m9"
-                                    >
+                                    <span className="text-blue-400 font-bold text-2xl">
                                         {' '}
                                         1+{' '}
                                     </span>{' '}
-                                    <p className="text-gray-400 text-sm" data-oid="udtq19j">
-                                        {' '}
-                                        Years Experience{' '}
-                                    </p>{' '}
+                                    <p className="text-gray-400 text-sm"> Years Experience </p>{' '}
                                 </div>{' '}
                             </div>{' '}
                         </div>{' '}
-                        <div className="relative" data-oid="ojj3hqk">
+                        <div className="relative">
                             {' '}
-                            <div
-                                className="bg-gradient-to-br from-blue-500/10 to-violet-500/10 rounded-lg p-1"
-                                data-oid="7lnv.9."
-                            >
+                            <div className="bg-gradient-to-br from-blue-500/10 to-violet-500/10 rounded-lg p-1">
                                 {' '}
-                                <div className="bg-black rounded-lg p-8" data-oid="xb-_0:o">
+                                <div className="bg-black rounded-lg p-8">
                                     {' '}
-                                    <div className="grid grid-cols-2 gap-6" data-oid="gjru7:j">
+                                    <div className="grid grid-cols-2 gap-6">
                                         {' '}
-                                        <div className="space-y-6" data-oid="b8u5747">
+                                        <div className="space-y-6">
                                             {' '}
-                                            <div
-                                                className="bg-gray-900 p-4 rounded-lg"
-                                                data-oid="xlt:4gw"
-                                            >
+                                            <div className="bg-gray-900 p-4 rounded-lg">
                                                 {' '}
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -1089,7 +874,6 @@ export default function Page() {
                                                     fill="none"
                                                     viewBox="0 0 24 24"
                                                     stroke="currentColor"
-                                                    data-oid="f6_orho"
                                                 >
                                                     {' '}
                                                     <path
@@ -1097,25 +881,15 @@ export default function Page() {
                                                         strokeLinejoin="round"
                                                         strokeWidth={1.5}
                                                         d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                                                        data-oid="wpynj5k"
                                                     />{' '}
                                                 </svg>{' '}
-                                                <h3 className="font-medium mb-1" data-oid="w2zul9q">
-                                                    {' '}
-                                                    Reliable{' '}
-                                                </h3>{' '}
-                                                <p
-                                                    className="text-gray-400 text-sm"
-                                                    data-oid="gy6188u"
-                                                >
+                                                <h3 className="font-medium mb-1"> Reliable </h3>{' '}
+                                                <p className="text-gray-400 text-sm">
                                                     {' '}
                                                     We Deliver on our Promises{' '}
                                                 </p>{' '}
                                             </div>{' '}
-                                            <div
-                                                className="bg-gray-900 p-4 rounded-lg"
-                                                data-oid="06h8b-i"
-                                            >
+                                            <div className="bg-gray-900 p-4 rounded-lg">
                                                 {' '}
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -1123,7 +897,6 @@ export default function Page() {
                                                     fill="none"
                                                     viewBox="0 0 24 24"
                                                     stroke="currentColor"
-                                                    data-oid="3fhb_32"
                                                 >
                                                     {' '}
                                                     <path
@@ -1131,28 +904,18 @@ export default function Page() {
                                                         strokeLinejoin="round"
                                                         strokeWidth={1.5}
                                                         d="M13 10V3L4 14h7v7l9-11h-7z"
-                                                        data-oid="rov9pc0"
                                                     />{' '}
                                                 </svg>{' '}
-                                                <h3 className="font-medium mb-1" data-oid="g-n8u7g">
-                                                    {' '}
-                                                    Innovative{' '}
-                                                </h3>{' '}
-                                                <p
-                                                    className="text-gray-400 text-sm"
-                                                    data-oid="2too-um"
-                                                >
+                                                <h3 className="font-medium mb-1"> Innovative </h3>{' '}
+                                                <p className="text-gray-400 text-sm">
                                                     {' '}
                                                     Cutting-edge Solutions{' '}
                                                 </p>{' '}
                                             </div>{' '}
                                         </div>{' '}
-                                        <div className="space-y-6 mt-6" data-oid=".:ha48g">
+                                        <div className="space-y-6 mt-6">
                                             {' '}
-                                            <div
-                                                className="bg-gray-900 p-4 rounded-lg"
-                                                data-oid="zqlvt:_"
-                                            >
+                                            <div className="bg-gray-900 p-4 rounded-lg">
                                                 {' '}
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -1160,7 +923,6 @@ export default function Page() {
                                                     fill="none"
                                                     viewBox="0 0 24 24"
                                                     stroke="currentColor"
-                                                    data-oid="clubrwq"
                                                 >
                                                     {' '}
                                                     <path
@@ -1168,25 +930,18 @@ export default function Page() {
                                                         strokeLinejoin="round"
                                                         strokeWidth={1.5}
                                                         d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
-                                                        data-oid="0x2sk67"
                                                     />{' '}
                                                 </svg>{' '}
-                                                <h3 className="font-medium mb-1" data-oid="x_ig-nl">
+                                                <h3 className="font-medium mb-1">
                                                     {' '}
                                                     Communicative{' '}
                                                 </h3>{' '}
-                                                <p
-                                                    className="text-gray-400 text-sm"
-                                                    data-oid="2e3fyev"
-                                                >
+                                                <p className="text-gray-400 text-sm">
                                                     {' '}
                                                     Clear, Open Dialogue{' '}
                                                 </p>{' '}
                                             </div>{' '}
-                                            <div
-                                                className="bg-gray-900 p-4 rounded-lg"
-                                                data-oid="06zezj."
-                                            >
+                                            <div className="bg-gray-900 p-4 rounded-lg">
                                                 {' '}
                                                 <svg
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -1194,7 +949,6 @@ export default function Page() {
                                                     fill="none"
                                                     viewBox="0 0 24 24"
                                                     stroke="currentColor"
-                                                    data-oid=".k500yc"
                                                 >
                                                     {' '}
                                                     <path
@@ -1202,17 +956,13 @@ export default function Page() {
                                                         strokeLinejoin="round"
                                                         strokeWidth={1.5}
                                                         d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                                                        data-oid="f75l:of"
                                                     />{' '}
                                                 </svg>{' '}
-                                                <h3 className="font-medium mb-1" data-oid="7w9_fu3">
+                                                <h3 className="font-medium mb-1">
                                                     {' '}
                                                     Quality-Focused{' '}
                                                 </h3>{' '}
-                                                <p
-                                                    className="text-gray-400 text-sm"
-                                                    data-oid="l7i84rf"
-                                                >
+                                                <p className="text-gray-400 text-sm">
                                                     {' '}
                                                     Excellence in every Detail{' '}
                                                 </p>{' '}
@@ -1225,109 +975,74 @@ export default function Page() {
                     </div>{' '}
                 </div>{' '}
                 {/* Abstract background elements */}{' '}
-                <div
-                    className="absolute -bottom-32 -left-32 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"
-                    data-oid="8b9x8ao"
-                ></div>{' '}
+                <div className="absolute -bottom-32 -left-32 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl"></div>{' '}
             </section>{' '}
             {/* Our Team Section */}{' '}
-            <section
-                id="team"
-                className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10"
-                data-oid="531gcv3"
-            >
+            <section id="team" className="py-20 bg-gray-900/80 backdrop-blur-sm relative z-10">
                 {' '}
-                <div className="container mx-auto px-6" data-oid="2f:j96o">
+                <div className="container mx-auto px-6">
                     {' '}
-                    <div className="text-center mb-16" data-oid="b9jiwf.">
+                    <div className="text-center mb-16">
                         {' '}
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="g-rtbef">
-                            {' '}
-                            Our Team{' '}
-                        </h2>{' '}
-                        <p className="text-gray-400 max-w-2xl mx-auto" data-oid="p66_l83">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4"> Our Team </h2>{' '}
+                        <p className="text-gray-400 max-w-2xl mx-auto">
                             {' '}
                             Meet the Talented Individuals behind BitHive Technologies{' '}
                         </p>{' '}
                     </div>{' '}
-                    <div
-                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
-                        data-oid="3:q7uc1"
-                    >
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {' '}
                         {/* Team Member 1 */}{' '}
-                        <div
-                            className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group"
-                            data-oid="37q::rt"
-                        >
+                        <div className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group">
                             {' '}
-                            <div className="mb-4 overflow-hidden rounded-lg" data-oid="pb5pvhp">
+                            <div className="mb-4 overflow-hidden rounded-lg">
                                 {' '}
-                                <div
-                                    className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
-                                    data-oid="hve6j3c"
-                                >
+                                <div className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
                                     <img
                                         src="/images/AyushSrivastav.png"
                                         alt="Ayush Srivastava"
                                         className="h-full w-full rounded-lg object-cover"
                                         loading="lazy"
-                                        data-oid="hjmbdqr"
                                     />
                                 </div>{' '}
                             </div>{' '}
-                            <div className="flex items-center mb-1" data-oid="9h-n--m">
+                            <div className="flex items-center mb-1">
                                 <a
                                     href="https://www.linkedin.com/in/ayushsrivastava0609/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-blue-400 transition-colors mr-2"
-                                    data-oid="n2j_::s"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="g_px4d1"
                                     >
-                                        <path
-                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                            data-oid="te2-xvb"
-                                        />
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                                     </svg>
                                 </a>
-                                <h3 className="text-xl font-semibold" data-oid="_p2uq52">
-                                    Ayush Srivastava
-                                </h3>
+                                <h3 className="text-xl font-semibold">Ayush Srivastava</h3>
                             </div>{' '}
-                            <p className="text-blue-400 mb-2" data-oid="a8vuk0n">
-                                Co-Founder & CTO
-                            </p>{' '}
-                            <p
-                                className="text-gray-400 text-sm mb-2 flex items-center"
-                                data-oid="53i8qu6"
-                            >
+                            <p className="text-blue-400 mb-2">Co-Founder & CEO</p>{' '}
+                            <p className="text-gray-400 text-sm mb-2 flex items-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-4 w-4 mr-2"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    data-oid="8hyxg2m"
                                 >
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={1.5}
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                        data-oid="0zr0h02"
                                     />
                                 </svg>
                                 <a
                                     href="mailto:ayushsrivastava@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
-                                    data-oid="exp0w7:"
                                 >
                                     {' '}
                                     ayushsrivastava@bithive.in{' '}
@@ -1335,77 +1050,55 @@ export default function Page() {
                             </p>
                         </div>{' '}
                         {/* Team Member 2 */}{' '}
-                        <div
-                            className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group"
-                            data-oid="h4l_j4k"
-                        >
+                        <div className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group">
                             {' '}
-                            <div className="mb-4 overflow-hidden rounded-lg" data-oid="49v2gvp">
+                            <div className="mb-4 overflow-hidden rounded-lg">
                                 {' '}
-                                <div
-                                    className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
-                                    data-oid="u5xjg:n"
-                                >
+                                <div className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
                                     <img
                                         src="/images/Saurabh.jpeg"
                                         alt="Saurabh Singh"
                                         className="h-full w-full rounded-lg object-cover"
-                                        data-oid="al4dbc0"
                                     />
                                 </div>{' '}
                             </div>{' '}
-                            <div className="flex items-center mb-1" data-oid="xzyfcum">
+                            <div className="flex items-center mb-1">
                                 <a
                                     href="https://www.linkedin.com/in/saurabh-singh-bithive"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-blue-400 transition-colors mr-2"
-                                    data-oid="qaxdlhf"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="9745ecg"
                                     >
-                                        <path
-                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                            data-oid="-ft9:9w"
-                                        />
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                                     </svg>
                                 </a>
-                                <h3 className="text-xl font-semibold" data-oid="rft0t9t">
-                                    Saurabh Singh
-                                </h3>
+                                <h3 className="text-xl font-semibold">Saurabh Singh</h3>
                             </div>{' '}
-                            <p className="text-blue-400 mb-2" data-oid="74z4j8j">
-                                Co-Founder & Tech Lead
-                            </p>{' '}
-                            <p
-                                className="text-gray-400 text-sm mb-2 flex items-center"
-                                data-oid="1yl:1_k"
-                            >
+                            <p className="text-blue-400 mb-2">Co-Founder & CTO</p>{' '}
+                            <p className="text-gray-400 text-sm mb-2 flex items-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-4 w-4 mr-2"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    data-oid="ps_j81r"
                                 >
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={1.5}
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                        data-oid="lr-wqje"
                                     />
                                 </svg>
                                 <a
                                     href="mailto:saurabhsingh@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
-                                    data-oid="a_1h_xc"
                                 >
                                     {' '}
                                     saurabhsingh@bithive.in{' '}
@@ -1413,77 +1106,55 @@ export default function Page() {
                             </p>
                         </div>{' '}
                         {/* Team Member 3 */}{' '}
-                        <div
-                            className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group"
-                            data-oid="1o5c2c3"
-                        >
+                        <div className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group">
                             {' '}
-                            <div className="mb-4 overflow-hidden rounded-lg" data-oid="7ltttz9">
+                            <div className="mb-4 overflow-hidden rounded-lg">
                                 {' '}
-                                <div
-                                    className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
-                                    data-oid="vcasq54"
-                                >
+                                <div className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
                                     <img
                                         src="/images/AyushKumar.jpeg"
                                         alt="Ayush Srivastava"
                                         className="h-full w-full rounded-lg object-cover"
-                                        data-oid="cvjb0ow"
                                     />
                                 </div>{' '}
                             </div>{' '}
-                            <div className="flex items-center mb-1" data-oid="db5ni0h">
+                            <div className="flex items-center mb-1">
                                 <a
                                     href="https://www.linkedin.com/in/ayush-kumar-aa16a2241/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-blue-400 transition-colors mr-2"
-                                    data-oid="784a3ig"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="vno7mgl"
                                     >
-                                        <path
-                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                            data-oid="uik3:vz"
-                                        />
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                                     </svg>
                                 </a>
-                                <h3 className="text-xl font-semibold" data-oid="udfk0:5">
-                                    Ayush Kumar
-                                </h3>
+                                <h3 className="text-xl font-semibold">Ayush Kumar</h3>
                             </div>{' '}
-                            <p className="text-blue-400 mb-2" data-oid="ydb1a.s">
-                                CMO/CSO
-                            </p>{' '}
-                            <p
-                                className="text-gray-400 text-sm mb-2 flex items-center"
-                                data-oid="d-_v_lf"
-                            >
+                            <p className="text-blue-400 mb-2">CMO/CSO</p>{' '}
+                            <p className="text-gray-400 text-sm mb-2 flex items-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-4 w-4 mr-2"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    data-oid="ndhx9rh"
                                 >
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={1.5}
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                        data-oid="zo5u:l0"
                                     />
                                 </svg>
                                 <a
                                     href="mailto:ayushkumar@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
-                                    data-oid="8ycfk5a"
                                 >
                                     {' '}
                                     ayushkumar@bithive.in{' '}
@@ -1491,77 +1162,55 @@ export default function Page() {
                             </p>
                         </div>{' '}
                         {/* Team Member 4 */}{' '}
-                        <div
-                            className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group"
-                            data-oid="1ld2wu2"
-                        >
+                        <div className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500/50 transition-all group">
                             {' '}
-                            <div className="mb-4 overflow-hidden rounded-lg" data-oid="df1kbd2">
+                            <div className="mb-4 overflow-hidden rounded-lg">
                                 {' '}
-                                <div
-                                    className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center"
-                                    data-oid="gs2159y"
-                                >
+                                <div className="aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
                                     <img
                                         src="/images/Priyansh.jpeg"
                                         alt="Priyansh Kandwal"
                                         className="h-full w-full rounded-lg object-cover"
-                                        data-oid="_js7uzq"
                                     />
                                 </div>{' '}
                             </div>{' '}
-                            <div className="flex items-center mb-1" data-oid="yyso7pp">
+                            <div className="flex items-center mb-1">
                                 <a
                                     href="https://www.linkedin.com/in/priyansh-kandwal69/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-400 hover:text-blue-400 transition-colors mr-2"
-                                    data-oid="9t6u0:o"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="5_h-qxa"
                                     >
-                                        <path
-                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                            data-oid="bngq632"
-                                        />
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                                     </svg>
                                 </a>
-                                <h3 className="text-xl font-semibold" data-oid="rk.3c5u">
-                                    Priyansh Kandwal
-                                </h3>
+                                <h3 className="text-xl font-semibold">Priyansh Kandwal</h3>
                             </div>{' '}
-                            <p className="text-blue-400 mb-2" data-oid="fi23f:y">
-                                COO & Team Lead
-                            </p>{' '}
-                            <p
-                                className="text-gray-400 text-sm mb-2 flex items-center"
-                                data-oid="n4_a7x-"
-                            >
+                            <p className="text-blue-400 mb-2">COO & Team Lead</p>{' '}
+                            <p className="text-gray-400 text-sm mb-2 flex items-center">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-4 w-4 mr-2"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
-                                    data-oid="3tjiwfw"
                                 >
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={1.5}
                                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                        data-oid="p8k5l7b"
                                     />
                                 </svg>
                                 <a
                                     href="mailto:priyanshkandwal@bithive.in"
                                     className="hover:text-blue-400 transition-colors"
-                                    data-oid="b3dev-4"
                                 >
                                     {' '}
                                     priyanshkandwal@bithive.in{' '}
@@ -1572,18 +1221,15 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* CTA Section */}{' '}
-            <section
-                className="py-20 bg-gradient-to-r from-blue-900/30 to-violet-900/30 relative z-10"
-                data-oid="19_cdbq"
-            >
+            <section className="py-20 bg-gradient-to-r from-blue-900/30 to-violet-900/30 relative z-10">
                 {' '}
-                <div className="container mx-auto px-6 text-center" data-oid="rmrj3w7">
+                <div className="container mx-auto px-6 text-center">
                     {' '}
-                    <h2 className="text-3xl md:text-4xl font-bold mb-6" data-oid="763jjxx">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6">
                         {' '}
                         Ready to Transform Your Digital Presence?{' '}
                     </h2>{' '}
-                    <p className="text-gray-300 max-w-2xl mx-auto mb-10" data-oid="y5l37jh">
+                    <p className="text-gray-300 max-w-2xl mx-auto mb-10">
                         {' '}
                         Let's Collaborate to Create Innovative Solutions that drive your Business
                         forward. Get in Touch today to discuss your Project.{' '}
@@ -1591,7 +1237,6 @@ export default function Page() {
                     <a
                         href="#contact"
                         className="px-8 py-4 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20 inline-block"
-                        data-oid="_alou_9"
                     >
                         {' '}
                         Let's Buzz{' '}
@@ -1599,35 +1244,29 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Contact Section */}{' '}
-            <section id="contact" className="py-16 pb-12 bg-black relative z-10" data-oid="0k4aj-f">
+            <section id="contact" className="py-16 pb-12 bg-black relative z-10">
                 {' '}
-                <div className="container mx-auto px-6 max-w-6xl" data-oid="diupd82">
+                <div className="container mx-auto px-6 max-w-6xl">
                     {' '}
-                    <div
-                        className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
-                        data-oid="ize7gcj"
-                    >
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                         {' '}
-                        <div className="mx-auto w-full" data-oid="swt_vak">
+                        <div className="mx-auto w-full">
                             {' '}
-                            <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="tozda.j">
+                            <h2 className="text-3xl md:text-4xl font-bold mb-4">
                                 {' '}
                                 Get In Touch{' '}
                             </h2>{' '}
-                            <p className="text-gray-300 mb-6" data-oid="z41cf:v">
+                            <p className="text-gray-300 mb-6">
                                 {' '}
                                 Have a Project in mind or want to learn more about our Services?
                                 Fill out the Form and We'll get back to you as soon as
                                 possible.{' '}
                             </p>{' '}
-                            <div className="space-y-4" data-oid="k9awz6i">
+                            <div className="space-y-4">
                                 {' '}
-                                <div className="flex items-start" data-oid="y3ui:rd">
+                                <div className="flex items-start">
                                     {' '}
-                                    <div
-                                        className="bg-gray-900 p-3 rounded-lg mr-4"
-                                        data-oid="yg3e4o-"
-                                    >
+                                    <div className="bg-gray-900 p-3 rounded-lg mr-4">
                                         {' '}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -1635,7 +1274,6 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="lg3390v"
                                         >
                                             {' '}
                                             <path
@@ -1643,28 +1281,18 @@ export default function Page() {
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                                                data-oid="rbs8.x0"
                                             />{' '}
                                         </svg>{' '}
                                     </div>{' '}
-                                    <div data-oid="s9mbckp">
+                                    <div>
                                         {' '}
-                                        <h3 className="font-medium mb-1" data-oid="zsk138w">
-                                            {' '}
-                                            Email{' '}
-                                        </h3>{' '}
-                                        <p className="text-gray-400" data-oid="k8t09yc">
-                                            {' '}
-                                            buzz@bithive.in{' '}
-                                        </p>{' '}
+                                        <h3 className="font-medium mb-1"> Email </h3>{' '}
+                                        <p className="text-gray-400"> buzz@bithive.in </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="flex items-start" data-oid="y--m-kr">
+                                <div className="flex items-start">
                                     {' '}
-                                    <div
-                                        className="bg-gray-900 p-3 rounded-lg mr-4"
-                                        data-oid="lymal-e"
-                                    >
+                                    <div className="bg-gray-900 p-3 rounded-lg mr-4">
                                         {' '}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -1672,7 +1300,6 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="93q9..7"
                                         >
                                             {' '}
                                             <path
@@ -1680,28 +1307,21 @@ export default function Page() {
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                                                data-oid="tvqeqp4"
                                             />{' '}
                                         </svg>{' '}
                                     </div>{' '}
-                                    <div data-oid="tgjgjlq">
+                                    <div>
                                         {' '}
-                                        <h3 className="font-medium mb-1" data-oid="_fphlq9">
-                                            {' '}
-                                            Phone{' '}
-                                        </h3>{' '}
-                                        <p className="text-gray-400" data-oid=".2pupqf">
+                                        <h3 className="font-medium mb-1"> Phone </h3>{' '}
+                                        <p className="text-gray-400">
                                             {' '}
                                             +91 7070030645 , +91 9369450531{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="flex items-start" data-oid="s2c-h.-">
+                                <div className="flex items-start">
                                     {' '}
-                                    <div
-                                        className="bg-gray-900 p-3 rounded-lg mr-4"
-                                        data-oid="o4gukvd"
-                                    >
+                                    <div className="bg-gray-900 p-3 rounded-lg mr-4">
                                         {' '}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -1709,7 +1329,6 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="a:lxkoj"
                                         >
                                             {' '}
                                             <path
@@ -1717,35 +1336,27 @@ export default function Page() {
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                                data-oid="zq4cxsz"
                                             />{' '}
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                                                data-oid="tjw7p_4"
                                             />{' '}
                                         </svg>{' '}
                                     </div>{' '}
-                                    <div data-oid="2.9z9-x">
+                                    <div>
                                         {' '}
-                                        <h3 className="font-medium mb-1" data-oid="16ofez.">
-                                            {' '}
-                                            Head Office{' '}
-                                        </h3>{' '}
-                                        <p className="text-gray-400" data-oid="8bdw-18">
+                                        <h3 className="font-medium mb-1"> Head Office </h3>{' '}
+                                        <p className="text-gray-400">
                                             {' '}
                                             Gurugram, Haryana, India{' '}
                                         </p>{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="flex items-start" data-oid="n9qj7b_">
+                                <div className="flex items-start">
                                     {' '}
-                                    <div
-                                        className="bg-gray-900 p-3 rounded-lg mr-4"
-                                        data-oid="bt0nrgk"
-                                    >
+                                    <div className="bg-gray-900 p-3 rounded-lg mr-4">
                                         {' '}
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -1753,7 +1364,6 @@ export default function Page() {
                                             fill="none"
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
-                                            data-oid="j5m6w06"
                                         >
                                             {' '}
                                             <path
@@ -1761,24 +1371,19 @@ export default function Page() {
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                                data-oid="27csh5l"
                                             />{' '}
                                             <path
                                                 strokeLinecap="round"
                                                 strokeLinejoin="round"
                                                 strokeWidth={1.5}
                                                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                                                data-oid="l1klbap"
                                             />{' '}
                                         </svg>{' '}
                                     </div>{' '}
-                                    <div data-oid="1hxv16h">
+                                    <div>
                                         {' '}
-                                        <h3 className="font-medium mb-1" data-oid="9:qo0go">
-                                            {' '}
-                                            Sub Office{' '}
-                                        </h3>{' '}
-                                        <p className="text-gray-400" data-oid="mys:8iz">
+                                        <h3 className="font-medium mb-1"> Sub Office </h3>{' '}
+                                        <p className="text-gray-400">
                                             {' '}
                                             Dehradun, Uttarakhand, India{' '}
                                         </p>{' '}
@@ -1786,24 +1391,17 @@ export default function Page() {
                                 </div>{' '}
                             </div>{' '}
                         </div>{' '}
-                        <div
-                            className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg mx-auto w-full"
-                            data-oid=":o-lrr."
-                        >
+                        <div className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg mx-auto w-full">
                             {' '}
-                            <form data-oid="--t9vb2">
+                            <form>
                                 {' '}
-                                <div
-                                    className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4"
-                                    data-oid="jzhun4a"
-                                >
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                                     {' '}
-                                    <div data-oid="0o1-wdd">
+                                    <div>
                                         {' '}
                                         <label
                                             htmlFor="name"
                                             className="block text-sm font-medium text-gray-400 mb-2"
-                                            data-oid=".8tu66g"
                                         >
                                             {' '}
                                             Name{' '}
@@ -1813,15 +1411,13 @@ export default function Page() {
                                             id="name"
                                             className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                             placeholder="Your name"
-                                            data-oid="1xknbkw"
                                         />{' '}
                                     </div>{' '}
-                                    <div data-oid="1o4.g8d">
+                                    <div>
                                         {' '}
                                         <label
                                             htmlFor="email"
                                             className="block text-sm font-medium text-gray-400 mb-2"
-                                            data-oid="oh21jp1"
                                         >
                                             {' '}
                                             Email{' '}
@@ -1831,16 +1427,14 @@ export default function Page() {
                                             id="email"
                                             className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                             placeholder="Your email"
-                                            data-oid="q-935jf"
                                         />{' '}
                                     </div>{' '}
                                 </div>{' '}
-                                <div className="mb-4" data-oid="yazhhza">
+                                <div className="mb-4">
                                     {' '}
                                     <label
                                         htmlFor="subject"
                                         className="block text-sm font-medium text-gray-400 mb-2"
-                                        data-oid="c3jjbqh"
                                     >
                                         {' '}
                                         Subject{' '}
@@ -1850,15 +1444,13 @@ export default function Page() {
                                         id="subject"
                                         className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                         placeholder="Subject"
-                                        data-oid="zfg:nmn"
                                     />{' '}
                                 </div>{' '}
-                                <div className="mb-4" data-oid="._oofyj">
+                                <div className="mb-4">
                                     {' '}
                                     <label
                                         htmlFor="message"
                                         className="block text-sm font-medium text-gray-400 mb-2"
-                                        data-oid="1a1phk-"
                                     >
                                         {' '}
                                         Message{' '}
@@ -1868,13 +1460,11 @@ export default function Page() {
                                         rows={5}
                                         className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                         placeholder="Your message"
-                                        data-oid="rykynha"
                                     ></textarea>{' '}
                                 </div>{' '}
                                 <button
                                     type="submit"
                                     className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20"
-                                    data-oid=":m4-80h"
                                 >
                                     {' '}
                                     Send Message{' '}
@@ -1885,36 +1475,31 @@ export default function Page() {
                 </div>{' '}
             </section>{' '}
             {/* Footer */}{' '}
-            <footer
-                className="bg-gray-900/80 backdrop-blur-sm border-t border-gray-800 relative z-10"
-                data-oid="qxnxcwl"
-            >
+            <footer className="bg-gray-900/80 backdrop-blur-sm border-t border-gray-800 relative z-10">
                 {' '}
-                <div className="container mx-auto px-6 py-12" data-oid="wf08u:o">
+                <div className="container mx-auto px-6 py-12">
                     {' '}
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8" data-oid="a6w4kr9">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         {' '}
-                        <div className="md:col-span-1" data-oid="9:y4fy3">
+                        <div className="md:col-span-1">
                             {' '}
-                            <div className="mb-6" data-oid="rc-6or5">
+                            <div className="mb-6">
                                 {' '}
                                 <img
                                     src="/images/PHOTO-2025-03-28-20-01-27.jpg"
                                     alt="BitHive Technologies Logo"
                                     className="h-16 w-auto rounded-md object-contain"
-                                    data-oid="_e_8vox"
                                 />{' '}
                             </div>{' '}
-                            <p className="text-gray-400 mb-6" data-oid="qyv3lsf">
+                            <p className="text-gray-400 mb-6">
                                 {' '}
                                 Creating Buzz in Digital Experiences !{' '}
                             </p>{' '}
-                            <div className="flex space-x-4" data-oid="upiym7y">
+                            <div className="flex space-x-4">
                                 {' '}
                                 <a
                                     href="#"
                                     className="text-gray-400 hover:text-blue-400 transition-colors"
-                                    data-oid=".khfy9s"
                                 >
                                     {' '}
                                     <svg
@@ -1922,19 +1507,14 @@ export default function Page() {
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="iwatxho"
                                     >
                                         {' '}
-                                        <path
-                                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
-                                            data-oid="8magwfn"
-                                        />{' '}
+                                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />{' '}
                                     </svg>{' '}
                                 </a>{' '}
                                 <a
                                     href="https://www.linkedin.com/company/bithive-technology "
                                     className="text-gray-400 hover:text-blue-400 transition-colors"
-                                    data-oid="sbo:m1x"
                                 >
                                     {' '}
                                     <svg
@@ -1942,19 +1522,14 @@ export default function Page() {
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="r4fyttw"
                                     >
                                         {' '}
-                                        <path
-                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
-                                            data-oid="hzb8z55"
-                                        />{' '}
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />{' '}
                                     </svg>{' '}
                                 </a>{' '}
                                 <a
                                     href="#"
                                     className="text-gray-400 hover:text-blue-400 transition-colors"
-                                    data-oid="hpgt221"
                                 >
                                     {' '}
                                     <svg
@@ -1962,105 +1537,75 @@ export default function Page() {
                                         className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24"
-                                        data-oid="7szliio"
                                     >
                                         {' '}
-                                        <path
-                                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                                            data-oid="75rlhq4"
-                                        />{' '}
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />{' '}
                                     </svg>{' '}
                                 </a>{' '}
                             </div>{' '}
                         </div>{' '}
-                        <div data-oid="8kuyb.c">
+                        <div>
                             {' '}
-                            <h3 className="text-lg font-semibold mb-4" data-oid="f3.2t1p">
+                            <h3 className="text-lg font-semibold mb-4"> Services </h3>{' '}
+                            <ul className="space-y-2">
                                 {' '}
-                                Services{' '}
-                            </h3>{' '}
-                            <ul className="space-y-2" data-oid="eax_pkx">
-                                {' '}
-                                <li className="text-gray-400" data-oid="efjzcxs">
-                                    {' '}
-                                    Website Development{' '}
-                                </li>{' '}
-                                <li className="text-gray-400" data-oid=":.whysq">
-                                    {' '}
-                                    Mobile App Development{' '}
-                                </li>{' '}
-                                <li className="text-gray-400" data-oid="irtgz08">
-                                    {' '}
-                                    UI/UX Design{' '}
-                                </li>{' '}
-                                <li className="text-gray-400" data-oid="b0:nn1l">
-                                    {' '}
-                                    Product Design{' '}
-                                </li>{' '}
-                                <li className="text-gray-400" data-oid="7.lcpis">
-                                    {' '}
-                                    Digital Strategy{' '}
-                                </li>{' '}
+                                <li className="text-gray-400"> Website Development </li>{' '}
+                                <li className="text-gray-400"> Mobile App Development </li>{' '}
+                                <li className="text-gray-400"> UI/UX Design </li>{' '}
+                                <li className="text-gray-400"> Product Design </li>{' '}
+                                <li className="text-gray-400"> Digital Strategy </li>{' '}
                             </ul>{' '}
                         </div>{' '}
-                        <div data-oid="nd6zsmr">
+                        <div>
                             {' '}
-                            <h3 className="text-lg font-semibold mb-4" data-oid="wsl0fwz">
+                            <h3 className="text-lg font-semibold mb-4"> Company </h3>{' '}
+                            <ul className="space-y-2">
                                 {' '}
-                                Company{' '}
-                            </h3>{' '}
-                            <ul className="space-y-2" data-oid="w.spoz2">
-                                {' '}
-                                <li data-oid="kp6bxcj">
+                                <li>
                                     {' '}
                                     <a
                                         href="#about"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="_1hebxz"
                                     >
                                         {' '}
                                         About Us{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="bp29byj">
+                                <li>
                                     {' '}
                                     <a
                                         href="#portfolio"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="c10y:tv"
                                     >
                                         {' '}
                                         Portfolio{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="vf2g13l">
+                                <li>
                                     {' '}
                                     <a
                                         href="#"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="k7aga.6"
                                     >
                                         {' '}
                                         Careers{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="h:ztmxn">
+                                <li>
                                     {' '}
                                     <a
                                         href="#"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="k0zrr_7"
                                     >
                                         {' '}
                                         Blog{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="lkhag-_">
+                                <li>
                                     {' '}
                                     <a
                                         href="#contact"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="y.-8kmi"
                                     >
                                         {' '}
                                         Contact{' '}
@@ -2068,42 +1613,36 @@ export default function Page() {
                                 </li>{' '}
                             </ul>{' '}
                         </div>{' '}
-                        <div data-oid="8csi9b-">
+                        <div>
                             {' '}
-                            <h3 className="text-lg font-semibold mb-4" data-oid="sl.1x_z">
+                            <h3 className="text-lg font-semibold mb-4"> Legal </h3>{' '}
+                            <ul className="space-y-2">
                                 {' '}
-                                Legal{' '}
-                            </h3>{' '}
-                            <ul className="space-y-2" data-oid="og17lj0">
-                                {' '}
-                                <li data-oid="n9gzwq2">
+                                <li>
                                     {' '}
                                     <a
                                         href="#"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="gv6h.k_"
                                     >
                                         {' '}
                                         Privacy Policy{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="789rtpl">
+                                <li>
                                     {' '}
                                     <a
                                         href="#"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid=".9byesx"
                                     >
                                         {' '}
                                         Terms of Service{' '}
                                     </a>{' '}
                                 </li>{' '}
-                                <li data-oid="0ldlmk3">
+                                <li>
                                     {' '}
                                     <a
                                         href="#"
                                         className="text-gray-400 hover:text-blue-400 transition-colors"
-                                        data-oid="rrdgmfq"
                                     >
                                         {' '}
                                         Cookie Policy{' '}
@@ -2112,17 +1651,14 @@ export default function Page() {
                             </ul>{' '}
                         </div>{' '}
                     </div>{' '}
-                    <div
-                        className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
-                        data-oid="1xk3d_:"
-                    >
+                    <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
                         {' '}
-                        <p className="text-gray-500 text-sm" data-oid="6sjg4fw">
+                        <p className="text-gray-500 text-sm">
                             {' '}
                             &copy; {new Date().getFullYear()} BitHive Technologies. All rights
                             Reserved.{' '}
                         </p>{' '}
-                        <p className="text-gray-500 text-sm mt-4 md:mt-0" data-oid="twk_pe_">
+                        <p className="text-gray-500 text-sm mt-4 md:mt-0">
                             {' '}
                             Built with ❤️ by BitHive Technologies{' '}
                         </p>{' '}
