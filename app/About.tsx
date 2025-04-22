@@ -65,28 +65,28 @@ export default function About() {
                             <ContactItem
                                 title="Email"
                                 description="buzz@bithive.in"
-                                iconPath="M3 8l7.89 5.26a2 2 0 002.22 0L21 8..."
+                                iconPath="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                                 data-oid="3a49dwx"
                             />
 
                             <ContactItem
                                 title="Phone"
                                 description="+91 7070030645 , +91 9369450531"
-                                iconPath="M3 5a2 2 0 012-2h3.28..."
+                                iconPath="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                                 data-oid="e2ecvei"
                             />
 
                             <ContactItem
                                 title="Head Office"
                                 description="Gurugram, Haryana, India"
-                                iconPath="M17.657 16.657L13.414 20.9..."
+                                iconPath="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                 data-oid="l4epqvl"
                             />
 
                             <ContactItem
                                 title="Sub Office"
                                 description="Dehradun, Uttarakhand, India"
-                                iconPath="M17.657 16.657L13.414 20.9..."
+                                iconPath="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                                 data-oid="v:np_0w"
                             />
                         </div>
@@ -107,8 +107,10 @@ export default function About() {
                                     onChange={(e: {
                                         target: { value: React.SetStateAction<string> };
                                     }) => setName(e.target.value)}
+                                    required
                                     data-oid="07eza.."
                                 />
+
                                 <InputField
                                     label="Email"
                                     type="email"
@@ -116,6 +118,7 @@ export default function About() {
                                     onChange={(e: {
                                         target: { value: React.SetStateAction<string> };
                                     }) => setEmail(e.target.value)}
+                                    required
                                     data-oid="ubplvnf"
                                 />
                             </div>
@@ -125,15 +128,20 @@ export default function About() {
                                 onChange={(e: {
                                     target: { value: React.SetStateAction<string> };
                                 }) => setSubject(e.target.value)}
+                                required
                                 data-oid="hy2tdob"
                             />
-                            <div className="mb-4" data-oid="vt-tyxg">
+
+                            <div className="mb-4 mt-3" data-oid="vt-tyxg">
                                 <label
                                     htmlFor="message"
                                     className="block text-sm font-medium text-gray-400 mb-2"
                                     data-oid="64_d-eu"
                                 >
-                                    Message
+                                    Message{' '}
+                                    <span className="text-red-500" data-oid="cn8yg1a">
+                                        *
+                                    </span>
                                 </label>
                                 <textarea
                                     id="message"
@@ -142,6 +150,7 @@ export default function About() {
                                     placeholder="Your message"
                                     value={message}
                                     onChange={(e) => setMessage(e.target.value)}
+                                    required
                                     data-oid="_rwh637"
                                 ></textarea>
                             </div>
@@ -161,11 +170,16 @@ export default function About() {
 }
 
 // Reusable Input Field component
-function InputField({ label, value, onChange, type = 'text' }: any) {
+function InputField({ label, value, onChange, type = 'text', required = false }: any) {
     return (
         <div data-oid="ffh:-zz">
             <label className="block text-sm font-medium text-gray-400 mb-2" data-oid="ztazbyr">
-                {label}
+                {label}{' '}
+                {required && (
+                    <span className="text-red-500" data-oid="rckjc_5">
+                        *
+                    </span>
+                )}
             </label>
             <input
                 type={type}
@@ -173,6 +187,7 @@ function InputField({ label, value, onChange, type = 'text' }: any) {
                 placeholder={label}
                 value={value}
                 onChange={onChange}
+                required={required}
                 data-oid="h87vh:_"
             />
         </div>
@@ -183,7 +198,7 @@ function InputField({ label, value, onChange, type = 'text' }: any) {
 function ContactItem({ title, description, iconPath }: any) {
     return (
         <div className="flex items-start" data-oid="fqapj0r">
-            <div className="bg-gray-900 p-3 rounded-lg mr-4" data-oid="52l4xx6">
+            <div className="bg-gray-900 p-3 rounded-lg mr-4 flex-shrink-0" data-oid="52l4xx6">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6 text-blue-400"
@@ -205,7 +220,7 @@ function ContactItem({ title, description, iconPath }: any) {
                 <h3 className="font-medium mb-1" data-oid="f26f7j-">
                     {title}
                 </h3>
-                <p className="text-gray-400" data-oid="ssnr4:h">
+                <p className="text-gray-400 text-sm" data-oid="ssnr4:h">
                     {description}
                 </p>
             </div>
