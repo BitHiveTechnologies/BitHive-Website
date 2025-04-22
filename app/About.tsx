@@ -44,7 +44,7 @@ export default function About() {
             setSubject('');
             setMessage('');
 
-            // Hide success message after 5 seconds
+            // Hide success message after 5 seconds and show form again
             setTimeout(() => {
                 setSuccess(false);
             }, 5000);
@@ -64,11 +64,11 @@ export default function About() {
                 >
                     <div className="mx-auto w-full" data-oid="v1qha8-">
                         <h2 className="text-3xl md:text-4xl font-bold mb-4" data-oid="30s28gd">
-                            Get In Touch
+                            Get In Touch !
                         </h2>
                         <p className="text-gray-300 mb-6" data-oid="_m:u.0e">
-                            Have a project in mind or want to learn more about our services? Fill
-                            out the form and we'll get back to you as soon as possible.
+                            Have a Project in Mind or Want to Learn more about our Services? Fill
+                            out the Form and We'll get back to you as soon as possible.
                         </p>
                         <div className="space-y-4" data-oid="t65gk9u">
                             <ContactItem
@@ -102,158 +102,151 @@ export default function About() {
                     </div>
 
                     <div
-                        className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg mx-auto w-full"
+                        className="bg-gray-900/50 backdrop-blur-sm p-8 rounded-lg mx-auto w-full h-full"
                         data-oid="ct_glrd"
                     >
-                        <form onSubmit={handleSubmit} data-oid="r2149q2">
-                            <div
-                                className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4"
-                                data-oid="h9g7ebz"
-                            >
-                                <InputField
-                                    label="Name"
-                                    value={name}
-                                    onChange={(e: {
-                                        target: { value: React.SetStateAction<string> };
-                                    }) => setName(e.target.value)}
-                                    required
-                                    data-oid="07eza.."
-                                />
-
-                                <InputField
-                                    label="Email"
-                                    type="email"
-                                    value={email}
-                                    onChange={(e: {
-                                        target: { value: React.SetStateAction<string> };
-                                    }) => setEmail(e.target.value)}
-                                    required
-                                    data-oid="ubplvnf"
-                                />
-                            </div>
-                            <InputField
-                                label="Subject"
-                                value={subject}
-                                onChange={(e: {
-                                    target: { value: React.SetStateAction<string> };
-                                }) => setSubject(e.target.value)}
-                                required
-                                data-oid="hy2tdob"
-                            />
-
-                            <div className="mb-4 mt-4" data-oid="vt-tyxg">
-                                <label
-                                    htmlFor="message"
-                                    className="block text-sm font-medium text-gray-400 mb-2"
-                                    data-oid="64_d-eu"
+                        <AnimatePresence mode="wait" data-oid="mg4ih.z">
+                            {success ? (
+                                <motion.div
+                                    className="flex flex-col items-center justify-center h-full py-8"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    key="success"
+                                    data-oid="gjo7dnh"
                                 >
-                                    Message{' '}
-                                    <span className="text-red-500" data-oid="cn8yg1a">
-                                        *
-                                    </span>
-                                </label>
-                                <textarea
-                                    id="message"
-                                    rows={5}
-                                    className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                    placeholder="Your message"
-                                    value={message}
-                                    onChange={(e) => setMessage(e.target.value)}
-                                    required
-                                    data-oid="_rwh637"
-                                ></textarea>
-                            </div>
-                            <button
-                                type="submit"
-                                className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20"
-                                data-oid="cco8fqo"
-                            >
-                                {loading ? 'Sending...' : 'Send Message'}
-                            </button>
-                        </form>
+                                    <div
+                                        className="w-24 h-24 rounded-full bg-green-500/20 flex items-center justify-center mb-6"
+                                        data-oid="pekwh:y"
+                                    >
+                                        <motion.svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            className="h-12 w-12 text-green-500"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                            initial={{ pathLength: 0 }}
+                                            animate={{ pathLength: 1 }}
+                                            transition={{
+                                                delay: 0.2,
+                                                duration: 0.6,
+                                                ease: 'easeOut',
+                                            }}
+                                            data-oid=".9u0851"
+                                        >
+                                            <motion.path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M5 13l4 4L19 7"
+                                                initial={{ pathLength: 0 }}
+                                                animate={{ pathLength: 1 }}
+                                                transition={{
+                                                    delay: 0.2,
+                                                    duration: 0.6,
+                                                    ease: 'easeOut',
+                                                }}
+                                                data-oid="rgn.lem"
+                                            />
+                                        </motion.svg>
+                                    </div>
+                                    <motion.h3
+                                        className="text-2xl font-bold text-white mb-2"
+                                        initial={{ opacity: 0, y: 10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.4 }}
+                                        data-oid=".q0ool:"
+                                    >
+                                        Thank you for your response
+                                    </motion.h3>
+                                    <motion.p
+                                        className="text-gray-400 text-center"
+                                        initial={{ opacity: 0, y: 10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.5 }}
+                                        data-oid="a.0hcda"
+                                    >
+                                        We've Received your Message and will Get Back to you Soon !
+                                    </motion.p>
+                                </motion.div>
+                            ) : (
+                                <motion.form
+                                    onSubmit={handleSubmit}
+                                    data-oid="r2149q2"
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    exit={{ opacity: 0 }}
+                                    key="form"
+                                >
+                                    <div
+                                        className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4"
+                                        data-oid="h9g7ebz"
+                                    >
+                                        <InputField
+                                            label="Name"
+                                            value={name}
+                                            onChange={(e: {
+                                                target: { value: React.SetStateAction<string> };
+                                            }) => setName(e.target.value)}
+                                            required
+                                            data-oid="07eza.."
+                                        />
+
+                                        <InputField
+                                            label="Email"
+                                            type="email"
+                                            value={email}
+                                            onChange={(e: {
+                                                target: { value: React.SetStateAction<string> };
+                                            }) => setEmail(e.target.value)}
+                                            required
+                                            data-oid="ubplvnf"
+                                        />
+                                    </div>
+                                    <InputField
+                                        label="Subject"
+                                        value={subject}
+                                        onChange={(e: {
+                                            target: { value: React.SetStateAction<string> };
+                                        }) => setSubject(e.target.value)}
+                                        required
+                                        data-oid="hy2tdob"
+                                    />
+
+                                    <div className="mb-4 mt-4" data-oid="vt-tyxg">
+                                        <label
+                                            htmlFor="message"
+                                            className="block text-sm font-medium text-gray-400 mb-2"
+                                            data-oid="64_d-eu"
+                                        >
+                                            Message{' '}
+                                        </label>
+                                        <textarea
+                                            id="message"
+                                            rows={5}
+                                            className="w-full bg-black border border-gray-800 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                            placeholder="Your message"
+                                            value={message}
+                                            onChange={(e) => setMessage(e.target.value)}
+                                            required
+                                            data-oid="_rwh637"
+                                        ></textarea>
+                                    </div>
+                                    <button
+                                        type="submit"
+                                        className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all shadow-lg shadow-blue-500/20"
+                                        data-oid="cco8fqo"
+                                    >
+                                        {loading ? 'Sending...' : 'Send Message'}
+                                    </button>
+                                </motion.form>
+                            )}
+                        </AnimatePresence>
                     </div>
                 </div>
             </div>
 
-            {/* Success Animation */}
-            <AnimatePresence data-oid="s9xnrp_">
-                {success && (
-                    <motion.div
-                        className="fixed inset-0 flex items-center justify-center bg-black/70 z-50"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        onClick={() => setSuccess(false)}
-                        data-oid="2j0eham"
-                    >
-                        <motion.div
-                            className="bg-gray-900 p-8 rounded-xl shadow-2xl flex flex-col items-center max-w-md mx-4"
-                            initial={{ scale: 0.8, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
-                            exit={{ scale: 0.8, opacity: 0 }}
-                            transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-                            onClick={(e) => e.stopPropagation()}
-                            data-oid="mifgb2d"
-                        >
-                            <div
-                                className="w-24 h-24 rounded-full bg-green-500/20 flex items-center justify-center mb-6"
-                                data-oid="naijcia"
-                            >
-                                <motion.svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-12 w-12 text-green-500"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    initial={{ pathLength: 0 }}
-                                    animate={{ pathLength: 1 }}
-                                    transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
-                                    data-oid="scqs3o3"
-                                >
-                                    <motion.path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M5 13l4 4L19 7"
-                                        initial={{ pathLength: 0 }}
-                                        animate={{ pathLength: 1 }}
-                                        transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
-                                        data-oid="acbjj9q"
-                                    />
-                                </motion.svg>
-                            </div>
-                            <motion.h3
-                                className="text-2xl font-bold text-white mb-2"
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.4 }}
-                                data-oid="vidf7.f"
-                            >
-                                Thank you for your response
-                            </motion.h3>
-                            <motion.p
-                                className="text-gray-400 text-center"
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.5 }}
-                                data-oid="ej69bm7"
-                            >
-                                We've received your message and will get back to you soon.
-                            </motion.p>
-                            <motion.button
-                                className="mt-6 px-6 py-2 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all"
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.6 }}
-                                onClick={() => setSuccess(false)}
-                                data-oid="i10.z3-"
-                            >
-                                Close
-                            </motion.button>
-                        </motion.div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+            {/* The success animation is now shown in place of the form */}
         </section>
     );
 }
@@ -264,11 +257,6 @@ function InputField({ label, value, onChange, type = 'text', required = false }:
         <div data-oid="ffh:-zz">
             <label className="block text-sm font-medium text-gray-400 mb-2" data-oid="ztazbyr">
                 {label}{' '}
-                {required && (
-                    <span className="text-red-500" data-oid="rckjc_5">
-                        *
-                    </span>
-                )}
             </label>
             <input
                 type={type}
