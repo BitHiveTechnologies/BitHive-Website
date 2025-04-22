@@ -36,7 +36,7 @@ export async function POST(request: Request) {
             <p><strong>Name:</strong> ${body.name}</p>
             <p><strong>Email:</strong> ${body.email}</p>
             <p><strong>Subject:</strong> ${body.subject || 'No subject'}</p>
-            <h3>Message:</h3>
+            <p><strong>Message:</strong></p>
             <p>${body.message}</p>
           </div>
           <div class="footer">
@@ -49,8 +49,8 @@ export async function POST(request: Request) {
     
     // Define the email options
     const mailOptions = {
-      from: `Your Website <${process.env.EMAIL_FROM}>`,
-      to: process.env.EMAIL_TO || process.env.EMAIL_FROM,
+      from: `Leads@BitHive`,
+      to: process.env.EMAIL_TO,
       replyTo: body.email,
       subject: `Contact Form: ${body.subject || 'New Message'}`,
       html: htmlContent
