@@ -141,7 +141,7 @@ export default function About() {
                                 data-oid="hy2tdob"
                             />
 
-                            <div className="mb-4 mt-3" data-oid="vt-tyxg">
+                            <div className="mb-4 mt-4" data-oid="vt-tyxg">
                                 <label
                                     htmlFor="message"
                                     className="block text-sm font-medium text-gray-400 mb-2"
