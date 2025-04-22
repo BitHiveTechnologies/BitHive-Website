@@ -1,6 +1,7 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function About() {
     const [name, setName] = React.useState('');
@@ -8,6 +9,7 @@ export default function About() {
     const [subject, setSubject] = React.useState('');
     const [message, setMessage] = React.useState('');
     const [loading, setLoading] = React.useState(false);
+    const [success, setSuccess] = React.useState(false);
 
     const handleSubmit = async (event: React.FormEvent) => {
         event.preventDefault();
@@ -33,12 +35,19 @@ export default function About() {
                 throw new Error(data.error || 'Failed to send message');
             }
 
-            alert('Message sent successfully!');
+            // Show success animation instead of alert
+            setSuccess(true);
+
             // Reset form
             setName('');
             setEmail('');
             setSubject('');
             setMessage('');
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                setSuccess(false);
+            }, 5000);
         } catch (error: any) {
             console.error('Error:', error);
             alert(error.message || 'Something went wrong');
@@ -165,6 +174,86 @@ export default function About() {
                     </div>
                 </div>
             </div>
+
+            {/* Success Animation */}
+            <AnimatePresence data-oid="s9xnrp_">
+                {success && (
+                    <motion.div
+                        className="fixed inset-0 flex items-center justify-center bg-black/70 z-50"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        onClick={() => setSuccess(false)}
+                        data-oid="2j0eham"
+                    >
+                        <motion.div
+                            className="bg-gray-900 p-8 rounded-xl shadow-2xl flex flex-col items-center max-w-md mx-4"
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            exit={{ scale: 0.8, opacity: 0 }}
+                            transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+                            onClick={(e) => e.stopPropagation()}
+                            data-oid="mifgb2d"
+                        >
+                            <div
+                                className="w-24 h-24 rounded-full bg-green-500/20 flex items-center justify-center mb-6"
+                                data-oid="naijcia"
+                            >
+                                <motion.svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-12 w-12 text-green-500"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    initial={{ pathLength: 0 }}
+                                    animate={{ pathLength: 1 }}
+                                    transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
+                                    data-oid="scqs3o3"
+                                >
+                                    <motion.path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M5 13l4 4L19 7"
+                                        initial={{ pathLength: 0 }}
+                                        animate={{ pathLength: 1 }}
+                                        transition={{ delay: 0.2, duration: 0.6, ease: 'easeOut' }}
+                                        data-oid="acbjj9q"
+                                    />
+                                </motion.svg>
+                            </div>
+                            <motion.h3
+                                className="text-2xl font-bold text-white mb-2"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.4 }}
+                                data-oid="vidf7.f"
+                            >
+                                Thank you for your response
+                            </motion.h3>
+                            <motion.p
+                                className="text-gray-400 text-center"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.5 }}
+                                data-oid="ej69bm7"
+                            >
+                                We've received your message and will get back to you soon.
+                            </motion.p>
+                            <motion.button
+                                className="mt-6 px-6 py-2 bg-gradient-to-r from-blue-500 to-violet-600 rounded-md text-white font-medium hover:from-blue-600 hover:to-violet-700 transition-all"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.6 }}
+                                onClick={() => setSuccess(false)}
+                                data-oid="i10.z3-"
+                            >
+                                Close
+                            </motion.button>
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </section>
     );
 }
